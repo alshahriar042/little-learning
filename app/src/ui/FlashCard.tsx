@@ -1,3 +1,4 @@
+import { darken } from "@/lib/color";
 import { useState, type ReactNode } from "react";
 
 /** Generic flashcard: big picture (tap = bounce + speak), coloured primary word, pronunciation and meaning. */
@@ -12,7 +13,7 @@ export function FlashCard({ picture, word, pron, meaning, color, onSpeak, speakL
         {picture}
       </button>
       <div>
-        <p className="text-5xl font-black uppercase tracking-wide" style={{ color }}>{word}</p>
+        <p className="text-5xl font-black uppercase tracking-wide" style={{ color: darken(color, 0.2) }}>{word}</p>
         {pron && <p lang="bn" className="mt-1 text-3xl font-bold text-soft">({pron})</p>}
         {meaning && <p lang="bn" className="mt-1 text-5xl font-extrabold leading-tight">{meaning}</p>}
       </div>

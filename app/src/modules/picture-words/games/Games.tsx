@@ -33,13 +33,13 @@ export function GamesMenu() {
     { id: "which", icon: "🔤", title: t("games.which"), desc: t("games.which.desc"), color: "#8e5bbf" },
   ];
   return (
-    <Screen title={t("games.title")} titleBn="খেলা" color="#2f9e8f" back="/m/picture-words" right={<><span className="rounded-full bg-white/25 px-3 py-1 text-lg font-extrabold">⭐ {stars}</span><HomeLink /></>}>
+    <Screen title={t("games.title")} titleBn="খেলা" color="#2f9e8f" back="/m/picture-words" right={<><span className="rounded-full bg-black/25 px-3 py-1 text-lg font-extrabold">⭐ {stars}</span><HomeLink /></>}>
       <h2 className="mb-3 text-xl font-extrabold">{t("games.pick")}</h2>
       <div className="grid gap-4 md:grid-cols-3">
         {games.map((g) => (
-          <BigTile key={g.id} color={g.color} onClick={() => nav(`/m/picture-words/games/${g.id}`)} className="flex min-h-32 items-center gap-4 p-5" label={g.title}>
+          <BigTile key={g.id} color={g.color} onClick={() => nav(`/m/picture-words/games/${g.id}`)} className="flex min-h-32 items-center gap-4 p-5">
             <span className="text-6xl" aria-hidden>{g.icon}</span>
-            <span><span className="block text-2xl font-extrabold">{g.title}</span><span className="block text-lg font-semibold opacity-95">{g.desc}</span></span>
+            <span><span className="block text-2xl font-extrabold">{g.title}</span><span className="block text-lg font-semibold">{g.desc}</span></span>
           </BigTile>
         ))}
       </div>

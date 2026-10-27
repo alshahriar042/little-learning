@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "predev": "tsx ../scripts/prepare-assets.ts",
     "dev": "vite",
     "prebuild": "tsx ../scripts/prepare-assets.ts",
     "build": "tsc --noEmit && vite build",

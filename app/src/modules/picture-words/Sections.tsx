@@ -28,7 +28,7 @@ export default function Sections() {
         <>
           <Link to="/m/picture-words/games" className="mb-4 flex min-h-20 items-center justify-between rounded-3xl bg-teal-bg px-6 text-white shadow-soft active:scale-95">
             <span className="text-2xl font-extrabold">🎮 {t("pw.games")} <span lang="bn" className="ml-1">খেলা</span></span>
-            <span className="rounded-full bg-white/25 px-3 py-1 text-lg font-extrabold">⭐ {prog?.stars ?? 0}</span>
+            <span className="rounded-full bg-black/25 px-3 py-1 text-lg font-extrabold">⭐ {prog?.stars ?? 0}</span>
           </Link>
           <h2 className="mb-3 text-xl font-extrabold">{t("pw.sections")}</h2>
           <div className="grid grid-cols-2 gap-3 md:grid-cols-3">
@@ -37,14 +37,14 @@ export default function Sections() {
               const seen = seenCount(prog, s.id);
               const got = prog?.stickers.includes(s.id);
               return (
-                <BigTile key={s.id} to={`/m/picture-words/${s.id}`} color={s.color} className="flex flex-col overflow-hidden" label={`${s.nameEn} ${s.nameBn}`}>
+                <BigTile key={s.id} to={`/m/picture-words/${s.id}`} color={s.color} className="flex flex-col overflow-hidden">
                   <div className="p-2 pb-0">
                     <ItemPicture item={items[0]} assets={data.assets} className="rounded-2xl" ratio={[4, 3]} priority={idx < 4} />
                   </div>
                   <div className="flex items-center justify-between gap-2 p-3">
                     <div className="min-w-0 leading-tight">
                       <div lang="bn" className="truncate text-xl font-extrabold">{s.nameBn}</div>
-                      <div className="truncate text-sm font-bold opacity-95">{s.nameEn}</div>
+                      <div className="truncate text-sm font-bold">{s.nameEn}</div>
                     </div>
                     {got ? <span className="text-4xl" aria-label="sticker">{stickerFor(s.id)}</span>
                       : <ProgressRing value={items.length ? seen / items.length : 0} size={48} stroke={6}>{seen}</ProgressRing>}

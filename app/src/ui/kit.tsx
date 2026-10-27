@@ -1,13 +1,14 @@
 import { useEffect, useMemo, useRef, type ButtonHTMLAttributes, type ReactNode, type PointerEvent } from "react";
 import { Link } from "react-router-dom";
 import { m } from "framer-motion";
+import { darken } from "@/lib/color";
 
 /** Large, friendly tile. Renders a router Link when `to` is set, else a button. Min 64px touch target. */
 export function BigTile({
   to, onClick, color, children, className = "", disabled, ribbon, label,
 }: { to?: string; onClick?: () => void; color: string; children: ReactNode; className?: string; disabled?: boolean; ribbon?: string; label?: string }) {
-  const cls = `relative block w-full min-h-16 rounded-3xl text-left shadow-soft transition-transform active:scale-95 ${disabled ? "opacity-70 grayscale" : ""} ${className}`;
-  const style = { backgroundColor: color, color: "#fff" };
+  const cls = `relative block w-full min-h-16 rounded-3xl text-left shadow-soft transition-transform active:scale-95 ${disabled ? "grayscale" : ""} ${className}`;
+  const style = { backgroundColor: darken(color, 0.28), color: "#fff" };
   const inner = (
     <>
       {children}

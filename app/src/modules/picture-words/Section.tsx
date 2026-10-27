@@ -1,5 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { Screen, HomeLink } from "@/ui/shell";
+import { darken } from "@/lib/color";
 import { useT } from "@/i18n/strings";
 import { ItemPicture, MODULE_ID, usePW } from "./data";
 import { LoadError } from "./Sections";
@@ -19,16 +20,16 @@ export default function Section() {
       {data && section && (
         <>
           <button type="button" onClick={() => nav(`/m/picture-words/${section.id}/${items[0].id}`)}
-            className="mb-4 min-h-16 w-full rounded-3xl text-2xl font-extrabold text-white shadow-soft active:scale-95" style={{ backgroundColor: section.color }}>
+            className="mb-4 min-h-16 w-full rounded-3xl text-2xl font-extrabold text-white shadow-soft active:scale-95" style={{ backgroundColor: darken(section.color, 0.28) }}>
             ▶ {t("pw.cards")} · {items.length} {t("common.items")}
           </button>
           <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
             {items.map((it, idx) => (
               <li key={it.id}>
-                <button type="button" onClick={() => nav(`/m/${MODULE_ID}/${section.id}/${it.id}`)} aria-label={`${it.en} ${it.bnMeaning}`}
+                <button type="button" onClick={() => nav(`/m/${MODULE_ID}/${section.id}/${it.id}`)}
                   className="block w-full overflow-hidden rounded-3xl bg-white p-2 text-center shadow-soft active:scale-95">
                   <ItemPicture item={it} assets={data.assets} className="rounded-2xl" ratio={[4, 3]} priority={idx < 6} />
-                  <div className="mt-2 text-lg font-extrabold uppercase leading-tight" style={{ color: section.color }}>{it.en}</div>
+                  <div className="mt-2 text-lg font-extrabold uppercase leading-tight" style={{ color: darken(section.color, 0.2) }}>{it.en}</div>
                   <div lang="bn" className="text-xl font-bold leading-snug">{it.bnMeaning}</div>
                 </button>
               </li>

@@ -190,7 +190,7 @@ export default function Parent() {
   const nav = useNavigate();
   return (
     <Gated title={t("parent.title")} back="/">
-      <Screen title={t("parent.title")} titleBn="বড়দের কর্নার" back="/" right={<button type="button" onClick={() => { lock(); nav("/"); }} className="min-h-12 rounded-full bg-white/25 px-4 font-bold">🔒 {t("parent.exit")}</button>}>
+      <Screen title={t("parent.title")} titleBn="বড়দের কর্নার" back="/" right={<button type="button" onClick={() => { lock(); nav("/"); }} className="min-h-12 rounded-full bg-black/25 px-4 font-bold">🔒 {t("parent.exit")}</button>}>
         <div className="mx-auto max-w-2xl">
           <SettingsCard />
           <OfflineCard />

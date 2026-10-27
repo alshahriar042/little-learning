@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useRegisterSW } from "virtual:pwa-register/react";
 import { useT } from "@/i18n/strings";
 import { useSettings } from "@/store/settings";
+import { darken } from "@/lib/color";
 
 export function useOnline() {
   const [on, setOn] = useState(typeof navigator === "undefined" ? true : navigator.onLine);
@@ -56,14 +57,14 @@ export function Screen({ title, titleBn, color = "#2f9e8f", back, right, childre
   const nav = useNavigate();
   return (
     <div className="mx-auto flex min-h-full w-full max-w-5xl flex-col">
-      <header className="safe-pt safe-px sticky top-0 z-30 flex items-center gap-3 pb-3 pt-2 text-white" style={{ backgroundColor: color }}>
+      <header className="safe-pt safe-px sticky top-0 z-30 flex items-center gap-3 pb-3 pt-2 text-white" style={{ backgroundColor: darken(color, 0.28) }}>
         {back !== undefined && (
           <button type="button" aria-label={t("common.back")} onClick={() => (typeof back === "number" ? nav(back) : nav(back))}
-            className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-white/25 text-3xl active:scale-90">←</button>
+            className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-black/25 text-3xl active:scale-90">←</button>
         )}
         <div className="min-w-0 flex-1 leading-tight">
           <h1 className="truncate text-xl font-extrabold">{title}</h1>
-          {titleBn && <p lang="bn" className="truncate text-lg font-bold opacity-95">{titleBn}</p>}
+          {titleBn && <p lang="bn" className="truncate text-lg font-bold">{titleBn}</p>}
         </div>
         {right}
       </header>
@@ -74,5 +75,5 @@ export function Screen({ title, titleBn, color = "#2f9e8f", back, right, childre
 
 export function HomeLink() {
   const t = useT();
-  return <Link to="/" aria-label={t("common.home")} className="flex h-14 w-14 items-center justify-center rounded-full bg-white/25 text-2xl">🏠</Link>;
+  return <Link to="/" aria-label={t("common.home")} className="flex h-14 w-14 items-center justify-center rounded-full bg-black/25 text-2xl">🏠</Link>;
 }

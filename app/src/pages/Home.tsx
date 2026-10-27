@@ -27,14 +27,14 @@ function ModuleTile({ id }: { id: string }) {
   const seen = totalSeen(prog);
   return (
     <BigTile to={mod.route} color={ready ? mod.color : "#9a9a9a"} disabled={!ready} ribbon={ready ? undefined : t("home.coming")}
-      className="flex min-h-40 flex-col justify-between p-5" label={`${mod.titleEn} ${mod.titleBn}`}>
+      className="flex min-h-40 flex-col justify-between p-5">
       <div className="flex items-start justify-between">
         <span className="text-6xl" aria-hidden>{mod.icon}</span>
         {ready && total > 0 && <ProgressRing value={seen / total} size={56} stroke={7}>{Math.round((seen / total) * 100)}%</ProgressRing>}
       </div>
       <div>
         <div lang="bn" className="text-3xl font-extrabold leading-tight">{mod.titleBn}</div>
-        <div className="text-lg font-bold opacity-95">{mod.titleEn}</div>
+        <div className="text-lg font-bold">{mod.titleEn}</div>
       </div>
     </BigTile>
   );

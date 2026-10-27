@@ -68,7 +68,7 @@ export default function Flashcards() {
   const arrow = "flex h-20 w-20 items-center justify-center rounded-full bg-white text-4xl font-black shadow-soft active:scale-90 disabled:opacity-30";
   return (
     <Screen title={section.nameEn} titleBn={section.nameBn} color={section.color} back={back}
-      right={<span className="rounded-full bg-white/25 px-3 py-1 text-lg font-extrabold">{index + 1} {t("flash.of")} {items.length}</span>}>
+      right={<span className="rounded-full bg-black/25 px-3 py-1 text-lg font-extrabold">{index + 1} {t("flash.of")} {items.length}</span>}>
       <PageSwipe onSwipe={(d) => { setAuto(false); go(d === "left" ? index + 1 : index - 1); }} className="mx-auto max-w-xl">
         <FlashCard color={section.color} word={item.en} pron={item.bnPron} meaning={item.bnMeaning} onSpeak={() => void say()} speakLabel={`${t("flash.speak")}: ${item.en}`}
           picture={<ItemPicture item={item} assets={data.assets} size={960} priority fit="contain" className="rounded-3xl bg-white" ratio={item.image ? [item.image.w, item.image.h] : [4, 3]} />} />
