@@ -59,6 +59,14 @@ async function main() {
   }
   for (const k of Object.keys(assets)) if (k.startsWith("img/960/")) assets[k].c = assets[k.replace("/960/", "/480/")].c;
 
+  // 1b. poem recordings: incoming/poem-audio/* -> dev-assets/poems/audio/* (upload to R2 under poems/audio/ in production)
+  const audioSrc = path.join(root, "incoming/poem-audio");
+  if (fs.existsSync(audioSrc)) {
+    const audioOut = path.join(root, "app/public/dev-assets/poems/audio");
+    fs.mkdirSync(audioOut, { recursive: true });
+    for (const f of fs.readdirSync(audioSrc)) if (/.(mp3|m4a|ogg|opus|wav)$/i.test(f)) fs.copyFileSync(path.join(audioSrc, f), path.join(audioOut, f));
+  }
+
   // 2. content + manifest
   fs.rmSync(contentOut, { recursive: true, force: true });
   fs.cpSync(contentSrc, contentOut, { recursive: true });

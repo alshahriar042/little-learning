@@ -114,3 +114,18 @@ standalone/portrait), the registered service worker and the offline e2e test.
    airplane-mode test after "Download everything".
 4. Optional: record human audio and add `audio` to items.
 5. Optional: decide whether backgrounds should be *removed* from the photos (see DECISIONS #2).
+
+## Adding recorded poem audio
+
+Poems are read with the device's Bangla voice by default. To use a real recitation instead (recommended: it sounds better and works on
+phones without a Bangla voice), record it yourself / use a recording you are licensed to use (do **not** rip audio from YouTube:
+it is copyrighted), then:
+
+```bash
+node scripts/add-poem-audio.mjs <poemId> my-recording.m4a          # needs ffmpeg; detects line timings from the pauses
+node scripts/add-poem-audio.mjs <poemId> my-recording.m4a --times 0,3.9,8.2,12   # or give each line's start time in seconds
+npm run assets                                                      # copies it to app/public/dev-assets/poems/audio
+```
+
+The player then plays the recording, highlights each line while it plays, and a tap on a line plays just that line.
+In production upload `app/public/dev-assets/poems/audio/*` to R2 under `poems/audio/`. A recording is cached for offline use after its first play.

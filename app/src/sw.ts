@@ -4,6 +4,7 @@ import { NavigationRoute, registerRoute } from "workbox-routing";
 import { CacheFirst, NetworkFirst } from "workbox-strategies";
 import { ExpirationPlugin } from "workbox-expiration";
 import { CacheableResponsePlugin } from "workbox-cacheable-response";
+import { RangeRequestsPlugin } from "workbox-range-requests";
 import { CONTENT_CACHE, cacheNameForPath, isModuleAssetPath } from "./lib/cacheNames";
 
 declare const self: ServiceWorkerGlobalScope;
@@ -22,6 +23,7 @@ function strategyFor(cacheName: string) {
       cacheName,
       plugins: [
         new CacheableResponsePlugin({ statuses: [0, 200] }),
+        new RangeRequestsPlugin(), // <audio> asks for byte ranges; answer them from the cached full file (offline playback / seeking)
         new ExpirationPlugin({ maxEntries: 2000 }), // no maxAge: downloaded packs must never expire
       ],
     });

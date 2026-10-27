@@ -93,3 +93,7 @@ Judgement calls made autonomously (newest context at the bottom of each topic).
     could not be checked online) and 7 more originals. "আতা গাছে তোতা পাখি" was corrected to the text collected in Tagore's
     ছেলেভুলানো ছড়া. Other traditional rhymes (আগডুম বাগডুম, দোল দোল দোলুনি, হাট্টিমা টিম টিম, ঘুম পাড়ানি...) are the popular
     modern variants from memory; the 1899 originals differ in places (e.g. "ঘোড়ার ডিম সাজে"). Variants are normal for folk rhymes.
+29. **No audio is taken from YouTube** (copyright + YouTube terms; this is a public site). No freely licensed Bengali recitations of these
+    poems exist on Wikimedia Commons either. Instead the player supports recordings (`audioKey` + per-line `startMs/endMs`) and
+    `scripts/add-poem-audio.mjs` attaches a recording you own / are licensed to use (auto-detects line timings from pauses). Until a
+    recording is added the poem is read by the device voice. The service worker now answers byte-range requests from cached audio.

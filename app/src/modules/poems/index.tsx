@@ -5,7 +5,11 @@ import { loadContentFile } from "@/services/content";
 import { PoemsSchema, type Poem } from "@/lib/schemas";
 import { speak, cancelSpeech } from "@/services/speech";
 import { darken } from "@/lib/color";
+import { assetUrl, isCrossOrigin } from "@/lib/assetUrl";
 import { useT } from "@/i18n/strings";
+import { ParentalGate } from "@/ui/ParentalGate";
+import { isUnlocked, useGate } from "@/lib/gate";
+import { useOnline } from "@/ui/shell";
 
 const MODULE = "poems";
 const COLOR = "#d6478a";
@@ -63,18 +67,61 @@ function PoemPlayer() {
   const next = poems && poem ? poems[(poems.indexOf(poem) + 1) % poems.length] : undefined;
   const [active, setActive] = useState(-1);
   const [playing, setPlaying] = useState(false);
+  const [video, setVideo] = useState<"hidden" | "gate" | "shown">("hidden");
+  const gateUntil = useGate((s) => s.until);
+  const unlock = useGate((s) => s.unlock);
+  const online = useOnline();
   const run = useRef(0);
   const lineEls = useRef<(HTMLParagraphElement | null)[]>([]);
 
-  const stop = useCallback(() => { run.current++; cancelSpeech(); setActive(-1); setPlaying(false); }, []);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const stopAt = useRef<number | null>(null); // when set, a single recorded line is playing and pauses at this time (s)
+
+  const stop = useCallback(() => {
+    run.current++; cancelSpeech(); stopAt.current = null;
+    audioRef.current?.pause();
+    setActive(-1); setPlaying(false);
+  }, []);
   useEffect(() => stop, [stop, poemId]);
+  useEffect(() => setVideo("hidden"), [poemId]);
   useEffect(() => { if (active >= 0) lineEls.current[active]?.scrollIntoView({ block: "center", behavior: "smooth" }); }, [active]);
 
   if (!poems) return <Screen title={t("common.loading")} back="/m/poems"><p /></Screen>;
   if (!poem) return <Screen title={t("poems.title")} back="/m/poems"><p className="p-6 text-center text-lg font-bold">{t("poems.none")}</p></Screen>;
 
+  // Recorded recitation (poem.audioKey -> poems/audio/<file>), with per-line start/end times; falls back to the device voice.
+  const audioSrc = poem.audioKey ? assetUrl(MODULE, `audio/${poem.audioKey}`) : null;
+  const lineAt = (sec: number) => poem.lines.findIndex((l) => sec * 1000 >= l.startMs && sec * 1000 < l.endMs);
+  const getAudio = () => {
+    if (!audioSrc) return null;
+    if (!audioRef.current || audioRef.current.dataset.src !== audioSrc) {
+      const a = new Audio();
+      if (isCrossOrigin()) a.crossOrigin = "anonymous";
+      a.preload = "auto"; a.src = audioSrc; a.dataset.src = audioSrc;
+      a.ontimeupdate = () => {
+        if (a.paused) return; // a trailing event after stop() must not re-highlight a line
+        if (stopAt.current !== null && a.currentTime >= stopAt.current) { stop(); return; }
+        setActive(lineAt(a.currentTime));
+      };
+      a.onended = () => stop();
+      audioRef.current = a;
+    }
+    return audioRef.current;
+  };
+  const playRecorded = async (fromMs: number, toMs?: number): Promise<boolean> => {
+    const a = getAudio();
+    if (!a) return false;
+    try {
+      a.currentTime = fromMs / 1000;
+      stopAt.current = toMs === undefined ? null : toMs / 1000;
+      await a.play();
+      return true;
+    } catch { audioRef.current = null; return false; } // missing/unsupported file: use the device voice instead
+  };
+
   const play = async (from = 0) => {
     stop();
+    if (audioSrc) { setPlaying(true); setActive(from); if (await playRecorded(poem.lines[from]?.startMs ?? 0)) return; setPlaying(false); }
     const my = run.current;
     setPlaying(true);
     for (let i = from; i < poem.lines.length; i++) {
@@ -88,11 +135,14 @@ function PoemPlayer() {
   };
   const one = async (i: number) => {
     stop();
-    const my = run.current;
     setActive(i);
+    if (audioSrc && (await playRecorded(poem.lines[i].startMs, poem.lines[i].endMs))) return;
+    const my = run.current;
     await speak({ bn: poem.lines[i].bn }, MODULE, "bn");
     if (my === run.current) setActive(-1);
   };
+
+  if (video === "gate") return <Screen title={poem.titleEn} titleBn={poem.titleBn} color={COLOR} back="/m/poems"><ParentalGate onPass={() => { unlock(); setVideo("shown"); }} onCancel={() => setVideo("hidden")} /></Screen>;
 
   return (
     <Screen title={poem.titleEn} titleBn={poem.titleBn} color={COLOR} back="/m/poems" right={<HomeLink />}>
@@ -102,6 +152,25 @@ function PoemPlayer() {
           className="min-h-16 w-full max-w-xs rounded-full bg-sun px-8 text-2xl font-extrabold text-ink shadow-soft active:scale-95">
           {playing ? `⏹ ${t("poems.stop")}` : `▶ ${t("poems.play")}`}
         </button>
+        {poem.video && (
+          <div className="flex w-full max-w-xl flex-col items-center gap-2">
+            <button type="button" aria-expanded={video === "shown"}
+              onClick={() => { if (video === "shown") setVideo("hidden"); else { stop(); setVideo(isUnlocked(gateUntil) ? "shown" : "gate"); } }}
+              className="min-h-14 rounded-full bg-white px-6 text-xl font-extrabold shadow-soft active:scale-95">
+              {video === "shown" ? `✕ ${t("poems.videoHide")}` : `🎬 ${t("poems.video")}`}
+            </button>
+            {video === "shown" && (online ? (
+              <>
+                <div className="aspect-video w-full overflow-hidden rounded-3xl bg-black shadow-soft">
+                  <iframe title={poem.video.title} className="h-full w-full" loading="lazy" allowFullScreen
+                    src={`https://www.youtube-nocookie.com/embed/${poem.video.id}?rel=0&modestbranding=1&playsinline=1`}
+                    allow="encrypted-media; picture-in-picture; fullscreen" referrerPolicy="strict-origin-when-cross-origin" />
+                </div>
+                <p className="text-center text-sm font-semibold text-soft">{t("poems.videoNote")} · {t("poems.videoBy")}: {poem.video.channel}</p>
+              </>
+            ) : <p role="status" className="rounded-2xl bg-white p-4 text-center font-bold shadow-soft">{t("poems.videoOffline")}</p>)}
+          </div>
+        )}
         <p className="text-base font-semibold text-soft">{t("poems.tap")}</p>
         {poem.lines.map((l, i) => (
           <p key={i} ref={(el) => { lineEls.current[i] = el; }} lang="bn" role="button" tabIndex={0}

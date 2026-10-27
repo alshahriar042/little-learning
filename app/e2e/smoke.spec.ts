@@ -98,3 +98,15 @@ test("poems: list shows the poems; a poem opens with its lines and can be played
   await page.getByRole("button", { name: /Stop|থামাও/ }).click();
   await expect(page.getByRole("button", { name: /Listen|শোনো/ })).toBeVisible();
 });
+
+test("poems: the YouTube video is behind the parental gate and uses the privacy-enhanced embed", async ({ page }) => {
+  await page.goto("/m/poems/chand-mama");
+  await expect(page.locator("iframe")).toHaveCount(0);
+  await page.getByRole("button", { name: /Watch the video|ভিডিও দেখো/ }).click();
+  await passGate(page);
+  const frame = page.locator("iframe");
+  await expect(frame).toHaveCount(1);
+  await expect(frame).toHaveAttribute("src", /^https:\/\/www\.youtube-nocookie\.com\/embed\/[\w-]{11}\?/);
+  await page.getByRole("button", { name: /Hide the video|ভিডিও লুকাও/ }).click();
+  await expect(page.locator("iframe")).toHaveCount(0);
+});

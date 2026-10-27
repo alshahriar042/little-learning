@@ -39,7 +39,12 @@
         "endMs": 20000
       }
     ],
-    "grade": 1
+    "grade": 1,
+    "video": {
+      "id": "ihGVgAuX-Tk",
+      "channel": "Hutum School Rhymes - বাংলা ছড়া",
+      "title": "Aye Aye Chand Mama | আয় আয় চাঁদ মামা"
+    }
   },
   {
     "id": "ghum-parani",
@@ -75,7 +80,12 @@
         "endMs": 16000
       }
     ],
-    "grade": 1
+    "grade": 1,
+    "video": {
+      "id": "9pIBPWO0BTo",
+      "channel": "Kheyal Khushi Bengali Rhymes",
+      "title": "Ghum parani mashi pishi | ঘুম পাড়ানি মাসি পিসি"
+    }
   },
   {
     "id": "ata-gache",
@@ -117,7 +127,12 @@
         "endMs": 20000
       }
     ],
-    "grade": 1
+    "grade": 1,
+    "video": {
+      "id": "9xgh8bww0uc",
+      "channel": "PDL Kids",
+      "title": "Ata Gache Tota Pakhi | আতা গাছে তোতা পাখি"
+    }
   },
   {
     "id": "hattima-tim-tim",
@@ -153,7 +168,12 @@
         "endMs": 16000
       }
     ],
-    "grade": 1
+    "grade": 1,
+    "video": {
+      "id": "OXYJLlMU974",
+      "channel": "Coco Kids BD",
+      "title": "হাট্টিমাটিম টিম"
+    }
   },
   {
     "id": "tara-jhilmil",
@@ -315,7 +335,12 @@
         "startMs": 4000,
         "endMs": 8000
       }
-    ]
+    ],
+    "video": {
+      "id": "YVoEvZ89DpQ",
+      "channel": "Shishu Vubon",
+      "title": "দোল দোল দোলনি রাঙা মাথায় চিরুনি"
+    }
   },
   {
     "id": "rong",
@@ -495,7 +520,12 @@
         "endMs": 16000
       }
     ],
-    "grade": 2
+    "grade": 2,
+    "video": {
+      "id": "NREmKD7ZqHo",
+      "channel": "Infobells Bangla",
+      "title": "খোকা ঘুমালো পাড়া জুড়ালো"
+    }
   },
   {
     "id": "brishti-pore",
@@ -531,7 +561,12 @@
         "endMs": 16000
       }
     ],
-    "grade": 2
+    "grade": 2,
+    "video": {
+      "id": "2xvlFsrXOC0",
+      "channel": "Hasi Khushi Rhymes",
+      "title": "বৃষ্টি পড়ে টাপুর টুপুর"
+    }
   },
   {
     "id": "saf-habit",
@@ -603,7 +638,12 @@
         "startMs": 12000,
         "endMs": 16000
       }
-    ]
+    ],
+    "video": {
+      "id": "Jfh5riMKhfg",
+      "channel": "Totomoni Rhymes",
+      "title": "আগডুম বাগডুম"
+    }
   },
   {
     "id": "saptaha",
@@ -759,7 +799,12 @@
         "startMs": 20000,
         "endMs": 24000
       }
-    ]
+    ],
+    "video": {
+      "id": "gxn98yoh2MQ",
+      "channel": "Hutum School Rhymes - বাংলা ছড়া",
+      "title": "নোটন নোটন পায়রাগুলি"
+    }
   },
   {
     "id": "dadur-bari",
@@ -867,7 +912,12 @@
         "endMs": 16000
       }
     ],
-    "grade": 3
+    "grade": 3,
+    "video": {
+      "id": "l3ipHXbDxIg",
+      "channel": "SHISHU SHIKKHA",
+      "title": "পাখি সব করে রব রাতি পোহাইল"
+    }
   },
   {
     "id": "taal-gach",
@@ -897,7 +947,12 @@
         "endMs": 12000
       }
     ],
-    "grade": 3
+    "grade": 3,
+    "video": {
+      "id": "7NJ2WAQsNss",
+      "channel": "Meghbarni",
+      "title": "তালগাছ - রবীন্দ্রনাথ ঠাকুর"
+    }
   },
   {
     "id": "gach-lagai",
@@ -1101,7 +1156,12 @@
         "startMs": 12000,
         "endMs": 16000
       }
-    ]
+    ],
+    "video": {
+      "id": "sz_W1EPPY8Q",
+      "channel": "Sa Re Ga Ma Academy",
+      "title": "আমার পণ"
+    }
   },
   {
     "id": "chhoto-nodi",
@@ -1149,7 +1209,12 @@
         "endMs": 24000
       }
     ],
-    "grade": 4
+    "grade": 4,
+    "video": {
+      "id": "9U61EOIX5VQ",
+      "channel": "Trimatrikbd",
+      "title": "আমাদের ছোট নদী"
+    }
   },
   {
     "id": "somoy",
