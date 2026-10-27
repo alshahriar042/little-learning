@@ -71,3 +71,9 @@ Judgement calls made autonomously (newest context at the bottom of each topic).
     (e.g. *Bowling* is a rendered image, *Satellite* is a Soyuz craft, *Flying saucer* is a historic B/W photo). "Muscle" and
     "Pointing up" were dropped because no suitable photo was found. The 10 NEW sections still use Noto Emoji cards (decision 23).
     Total now: 22 sections, 588 words.
+25. The 8 newer sections (clothes, at home, school, jobs, sky & nature, music, places, toys) were also switched to real photographs:
+    first by Commons text search (`add-photos.ts`, `MODE=new`), then, for poor matches, by the lead photo of the matching English
+    Wikipedia article (`add-wiki-photos.ts`). Every photo was reviewed on a contact sheet; 12 items with no good photo were put back
+    to Noto Emoji cards (`REVERT=... add-items.ts`). **Colours and Shapes stay emoji/graphic cards**: a photo cannot show "red" or
+    "triangle" unambiguously. Remaining emoji cards: colours 11, shapes 7, plus 12 single items. Wikimedia text search is weak for
+    generic words, so a few photos are "best available" rather than ideal; replace any by editing `PICK`/`MAP` and re-running.

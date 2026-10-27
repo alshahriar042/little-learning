@@ -8349,14 +8349,14 @@
     "image": {
       "file": "clothes-shirt.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f455.svg"
+      "author": "Punker1999",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plaid_IZOD_men%27s_shirt.jpg",
+      "title": "File:Plaid IZOD men's shirt.jpg"
     }
   },
   {
@@ -8369,14 +8369,14 @@
     "image": {
       "file": "clothes-trousers.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f456.svg"
+      "author": "Dressed_for_summer.jpg: Ed Yourdon derivative work: Themightyquill (talk)",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trousers-colourisolated.jpg",
+      "title": "File:Trousers-colourisolated.jpg"
     }
   },
   {
@@ -8389,14 +8389,14 @@
     "image": {
       "file": "clothes-dress.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f457.svg"
+      "author": "Unknown",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Afternoon_ensemble_MET_63.212a-b_CP4.jpg",
+      "title": "File:Afternoon_ensemble_MET_63.212a-b_CP4.jpg"
     }
   },
   {
@@ -8409,14 +8409,214 @@
     "image": {
       "file": "clothes-shoes.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f45f.svg"
+      "author": "Ricardovfo",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Professional_Sneakers_-_Sneakers_for_hostesses,_pilots_and_other_professionals._Comfortable_sneakers_produced_in_leather_inside_and_outside.jpg",
+      "title": "File:Professional Sneakers - Sneakers for hostesses, pilots and other professionals. Comfortable sneakers produced in leather inside and outside.jpg"
+    }
+  },
+  {
+    "id": "clothes-cap",
+    "sectionId": "clothes",
+    "en": "Cap",
+    "bnPron": "ক্যাপ",
+    "bnMeaning": "টুপি",
+    "emoji": "🧢",
+    "image": {
+      "file": "clothes-cap.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Menswear Market",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madras_plaid_baseball_cap_by_Polo_Ralph_Lauren.jpg",
+      "title": "File:Madras plaid baseball cap by Polo Ralph Lauren.jpg"
+    }
+  },
+  {
+    "id": "clothes-jacket",
+    "sectionId": "clothes",
+    "en": "Jacket",
+    "bnPron": "জ্যাকেট",
+    "bnMeaning": "জ্যাকেট",
+    "emoji": "🧥",
+    "image": {
+      "file": "clothes-jacket.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Ingolfson",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Windbreaker_Jacket,_Hood_Outside.jpg",
+      "title": "File:Windbreaker Jacket, Hood Outside.jpg"
+    }
+  },
+  {
+    "id": "clothes-scarf",
+    "sectionId": "clothes",
+    "en": "Scarf",
+    "bnPron": "স্কার্ফ",
+    "bnMeaning": "স্কার্ফ",
+    "emoji": "🧣",
+    "image": {
+      "file": "clothes-scarf.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Kritzolina",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colored_silk_scarf_from_India_01.jpg",
+      "title": "File:Colored silk scarf from India 01.jpg"
+    }
+  },
+  {
+    "id": "clothes-gloves",
+    "sectionId": "clothes",
+    "en": "Gloves",
+    "bnPron": "গ্লাভস",
+    "bnMeaning": "দস্তানা",
+    "emoji": "🧤",
+    "image": {
+      "file": "clothes-gloves.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Kippelboy",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG",
+      "title": "File:Centre_de_Documentació_Museu_Tèxtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG"
+    }
+  },
+  {
+    "id": "clothes-glasses",
+    "sectionId": "clothes",
+    "en": "Glasses",
+    "bnPron": "গ্লাসেস",
+    "bnMeaning": "চশমা",
+    "emoji": "👓",
+    "image": {
+      "file": "clothes-glasses.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Jacek Halicki",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Okulary_korekcyjne.jpg",
+      "title": "File:2023_Okulary_korekcyjne.jpg"
+    }
+  },
+  {
+    "id": "clothes-umbrella",
+    "sectionId": "clothes",
+    "en": "Umbrella",
+    "bnPron": "আমব্রেলা",
+    "bnMeaning": "ছাতা",
+    "emoji": "☂️",
+    "image": {
+      "file": "clothes-umbrella.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beige_and_brown_oil-paper_umbrella_on_the_edge_of_a_wooden_house_in_Luang_Prabang_Laos.jpg",
+      "title": "File:Beige and brown oil-paper umbrella on the edge of a wooden house in Luang Prabang Laos.jpg"
+    }
+  },
+  {
+    "id": "clothes-watch",
+    "sectionId": "clothes",
+    "en": "Watch",
+    "bnPron": "ওয়াচ",
+    "bnMeaning": "হাতঘড়ি",
+    "emoji": "⌚",
+    "image": {
+      "file": "clothes-watch.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Petar Milošević",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Self-winding_wristwatch_(transparent_backside).jpg",
+      "title": "File:Self-winding wristwatch (transparent backside).jpg"
+    }
+  },
+  {
+    "id": "clothes-saree",
+    "sectionId": "clothes",
+    "en": "Saree",
+    "bnPron": "শাড়ি",
+    "bnMeaning": "শাড়ি",
+    "emoji": "🥻",
+    "image": {
+      "file": "clothes-saree.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Masumcity",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crafting_Heritage_A_Woman_Shaping_Tradition_in_Dhaka.jpg",
+      "title": "File:Crafting Heritage A Woman Shaping Tradition in Dhaka.jpg"
+    }
+  },
+  {
+    "id": "clothes-boots",
+    "sectionId": "clothes",
+    "en": "Boots",
+    "bnPron": "বুটস",
+    "bnMeaning": "বুট জুতা",
+    "emoji": "🥾",
+    "image": {
+      "file": "clothes-boots.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Petar Milošević",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leather_boots_men%27s.jpg",
+      "title": "File:Leather boots men's.jpg"
+    }
+  },
+  {
+    "id": "clothes-crown",
+    "sectionId": "clothes",
+    "en": "Crown",
+    "bnPron": "ক্রাউন",
+    "bnMeaning": "মুকুট",
+    "emoji": "👑",
+    "image": {
+      "file": "clothes-crown.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Firebrace",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Edward%27s_Crown.jpg",
+      "title": "File:Saint_Edward's_Crown.jpg"
     }
   },
   {
@@ -8460,26 +8660,6 @@
     }
   },
   {
-    "id": "clothes-cap",
-    "sectionId": "clothes",
-    "en": "Cap",
-    "bnPron": "ক্যাপ",
-    "bnMeaning": "টুপি",
-    "emoji": "🧢",
-    "image": {
-      "file": "clothes-cap.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9e2.svg"
-    }
-  },
-  {
     "id": "clothes-hat",
     "sectionId": "clothes",
     "en": "Hat",
@@ -8497,166 +8677,6 @@
       "license": "Apache-2.0",
       "sourceUrl": "https://github.com/googlefonts/noto-emoji",
       "title": "emoji_u1f452.svg"
-    }
-  },
-  {
-    "id": "clothes-jacket",
-    "sectionId": "clothes",
-    "en": "Jacket",
-    "bnPron": "জ্যাকেট",
-    "bnMeaning": "জ্যাকেট",
-    "emoji": "🧥",
-    "image": {
-      "file": "clothes-jacket.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9e5.svg"
-    }
-  },
-  {
-    "id": "clothes-scarf",
-    "sectionId": "clothes",
-    "en": "Scarf",
-    "bnPron": "স্কার্ফ",
-    "bnMeaning": "স্কার্ফ",
-    "emoji": "🧣",
-    "image": {
-      "file": "clothes-scarf.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9e3.svg"
-    }
-  },
-  {
-    "id": "clothes-gloves",
-    "sectionId": "clothes",
-    "en": "Gloves",
-    "bnPron": "গ্লাভস",
-    "bnMeaning": "দস্তানা",
-    "emoji": "🧤",
-    "image": {
-      "file": "clothes-gloves.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9e4.svg"
-    }
-  },
-  {
-    "id": "clothes-glasses",
-    "sectionId": "clothes",
-    "en": "Glasses",
-    "bnPron": "গ্লাসেস",
-    "bnMeaning": "চশমা",
-    "emoji": "👓",
-    "image": {
-      "file": "clothes-glasses.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f453.svg"
-    }
-  },
-  {
-    "id": "clothes-umbrella",
-    "sectionId": "clothes",
-    "en": "Umbrella",
-    "bnPron": "আমব্রেলা",
-    "bnMeaning": "ছাতা",
-    "emoji": "☂️",
-    "image": {
-      "file": "clothes-umbrella.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u2602.svg"
-    }
-  },
-  {
-    "id": "clothes-watch",
-    "sectionId": "clothes",
-    "en": "Watch",
-    "bnPron": "ওয়াচ",
-    "bnMeaning": "হাতঘড়ি",
-    "emoji": "⌚",
-    "image": {
-      "file": "clothes-watch.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u231a.svg"
-    }
-  },
-  {
-    "id": "clothes-saree",
-    "sectionId": "clothes",
-    "en": "Saree",
-    "bnPron": "শাড়ি",
-    "bnMeaning": "শাড়ি",
-    "emoji": "🥻",
-    "image": {
-      "file": "clothes-saree.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f97b.svg"
-    }
-  },
-  {
-    "id": "clothes-boots",
-    "sectionId": "clothes",
-    "en": "Boots",
-    "bnPron": "বুটস",
-    "bnMeaning": "বুট জুতা",
-    "emoji": "🥾",
-    "image": {
-      "file": "clothes-boots.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f97e.svg"
     }
   },
   {
@@ -8680,26 +8700,6 @@
     }
   },
   {
-    "id": "clothes-crown",
-    "sectionId": "clothes",
-    "en": "Crown",
-    "bnPron": "ক্রাউন",
-    "bnMeaning": "মুকুট",
-    "emoji": "👑",
-    "image": {
-      "file": "clothes-crown.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f451.svg"
-    }
-  },
-  {
     "id": "home-bed",
     "sectionId": "home",
     "en": "Bed",
@@ -8709,14 +8709,14 @@
     "image": {
       "file": "home-bed.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f6cf.svg"
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canopy_bed_of_Amantaka_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+      "title": "File:Canopy bed of Amantaka Suite in Amantaka luxury Resort & Hotel in Luang Prabang Laos.jpg"
     }
   },
   {
@@ -8729,14 +8729,14 @@
     "image": {
       "file": "home-chair.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1fa91.svg"
+      "author": "Thomas Chippendale",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Set_of_fourteen_side_chairs_MET_DP110780.jpg",
+      "title": "File:Set_of_fourteen_side_chairs_MET_DP110780.jpg"
     }
   },
   {
@@ -8749,14 +8749,14 @@
     "image": {
       "file": "home-door.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f6aa.svg"
+      "author": "Radomianin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fischerkirche_(main_door),_Born_a._Dar%C3%9F.jpg",
+      "title": "File:Fischerkirche (main door), Born a. Darß.jpg"
     }
   },
   {
@@ -8769,14 +8769,374 @@
     "image": {
       "file": "home-window.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1fa9f.svg"
+      "author": "Shahadusadik",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atua_Kosua_shrine4.jpg",
+      "title": "File:Atua_Kosua_shrine4.jpg"
+    }
+  },
+  {
+    "id": "home-alarm-clock",
+    "sectionId": "home",
+    "en": "Alarm Clock",
+    "bnPron": "অ্যালার্ম ক্লক",
+    "bnMeaning": "অ্যালার্ম ঘড়ি",
+    "emoji": "⏰",
+    "image": {
+      "file": "home-alarm-clock.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Santeri Viinamäki",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Classic_alarm_clock_20180513.jpg",
+      "title": "File:Classic alarm clock 20180513.jpg"
+    }
+  },
+  {
+    "id": "home-television",
+    "sectionId": "home",
+    "en": "Television",
+    "bnPron": "টেলিভিশন",
+    "bnMeaning": "টেলিভিশন",
+    "emoji": "📺",
+    "image": {
+      "file": "home-television.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Svetlov Artem",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polytechnical_Museum_television_set_Volna_20150214_164839.jpg",
+      "title": "File:Polytechnical Museum television set Volna 20150214 164839.jpg"
+    }
+  },
+  {
+    "id": "home-mobile-phone",
+    "sectionId": "home",
+    "en": "Mobile Phone",
+    "bnPron": "মোবাইল ফোন",
+    "bnMeaning": "মোবাইল ফোন",
+    "emoji": "📱",
+    "image": {
+      "file": "home-mobile-phone.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Sage Ross",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wikipedia_homepage_on_a_large_Android_phone,_2015-04-16.jpg",
+      "title": "File:Wikipedia_homepage_on_a_large_Android_phone,_2015-04-16.jpg"
+    }
+  },
+  {
+    "id": "home-key",
+    "sectionId": "home",
+    "en": "Key",
+    "bnPron": "কি",
+    "bnMeaning": "চাবি",
+    "emoji": "🔑",
+    "image": {
+      "file": "home-key.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Machermo,_Key,_Lock,_Nepal.jpg",
+      "title": "File:Machermo, Key, Lock, Nepal.jpg"
+    }
+  },
+  {
+    "id": "home-broom",
+    "sectionId": "home",
+    "en": "Broom",
+    "bnPron": "ব্রুম",
+    "bnMeaning": "ঝাড়ু",
+    "emoji": "🧹",
+    "image": {
+      "file": "home-broom.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hue_Vietnam_Broom-in-C%C3%A0n-Th%C3%A0nh-Palace-01.jpg",
+      "title": "File:Hue Vietnam Broom-in-Càn-Thành-Palace-01.jpg"
+    }
+  },
+  {
+    "id": "home-bucket",
+    "sectionId": "home",
+    "en": "Bucket",
+    "bnPron": "বাকেট",
+    "bnMeaning": "বালতি",
+    "emoji": "🪣",
+    "image": {
+      "file": "home-bucket.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Wolfgang Sauber",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gotland-Bottarve_Museumshof_07.jpg",
+      "title": "File:Gotland-Bottarve_Museumshof_07.jpg"
+    }
+  },
+  {
+    "id": "home-toothbrush",
+    "sectionId": "home",
+    "en": "Toothbrush",
+    "bnPron": "টুথব্রাশ",
+    "bnMeaning": "টুথব্রাশ",
+    "emoji": "🪥",
+    "image": {
+      "file": "home-toothbrush.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Jonas Bergsten",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toothbrush_x3_20050716_002.jpg",
+      "title": "File:Toothbrush x3 20050716 002.jpg"
+    }
+  },
+  {
+    "id": "home-soap",
+    "sectionId": "home",
+    "en": "Soap",
+    "bnPron": "সোপ",
+    "bnMeaning": "সাবান",
+    "emoji": "🧼",
+    "image": {
+      "file": "home-soap.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aleppo_soap_01.jpg",
+      "title": "File:Aleppo soap 01.jpg"
+    }
+  },
+  {
+    "id": "home-sofa",
+    "sectionId": "home",
+    "en": "Sofa",
+    "bnPron": "সোফা",
+    "bnMeaning": "সোফা",
+    "emoji": "🛋️",
+    "image": {
+      "file": "home-sofa.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "www.Pixel.la Free Stock Photos",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Couch-furniture-living-room-sofa_(24300293356).jpg",
+      "title": "File:Couch-furniture-living-room-sofa (24300293356).jpg"
+    }
+  },
+  {
+    "id": "home-bathtub",
+    "sectionId": "home",
+    "en": "Bathtub",
+    "bnPron": "বাথটাব",
+    "bnMeaning": "বাথটাব",
+    "emoji": "🛁",
+    "image": {
+      "file": "home-bathtub.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bathtub_of_Khan_Pool_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+      "title": "File:Bathtub of Khan Pool Suite in Amantaka luxury Resort & Hotel in Luang Prabang Laos.jpg"
+    }
+  },
+  {
+    "id": "home-shower",
+    "sectionId": "home",
+    "en": "Shower",
+    "bnPron": "শাওয়ার",
+    "bnMeaning": "ঝরনা",
+    "emoji": "🚿",
+    "image": {
+      "file": "home-shower.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Florstein (Telegram:WikiPhoto.Space)",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Country_Shower_in_LO.jpg",
+      "title": "File:Country Shower in LO.jpg"
+    }
+  },
+  {
+    "id": "home-candle",
+    "sectionId": "home",
+    "en": "Candle",
+    "bnPron": "ক্যান্ডেল",
+    "bnMeaning": "মোমবাতি",
+    "emoji": "🕯️",
+    "image": {
+      "file": "home-candle.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Donald Olszewski",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burning_candle_marco.jpg",
+      "title": "File:Burning candle marco.jpg"
+    }
+  },
+  {
+    "id": "home-spoon",
+    "sectionId": "home",
+    "en": "Spoon",
+    "bnPron": "স্পুন",
+    "bnMeaning": "চামচ",
+    "emoji": "🥄",
+    "image": {
+      "file": "home-spoon.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Donovan Govan.",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soup_Spoon.jpg",
+      "title": "File:Soup_Spoon.jpg"
+    }
+  },
+  {
+    "id": "home-fork-and-plate",
+    "sectionId": "home",
+    "en": "Fork and Plate",
+    "bnPron": "ফর্ক অ্যান্ড প্লেট",
+    "bnMeaning": "থালা ও কাঁটাচামচ",
+    "emoji": "🍽️",
+    "image": {
+      "file": "home-fork-and-plate.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Unknown",
+      "license": "CC BY-SA 3.0 us",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Assorted_forks.jpg",
+      "title": "File:Assorted_forks.jpg"
+    }
+  },
+  {
+    "id": "home-bowl",
+    "sectionId": "home",
+    "en": "Bowl",
+    "bnPron": "বোল",
+    "bnMeaning": "বাটি",
+    "emoji": "🥣",
+    "image": {
+      "file": "home-bowl.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Wilfredor",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_bowl_in_the_form_of_the_bird_with_precious_stones_from_Munich_Project.jpg",
+      "title": "File:Golden bowl in the form of the bird with precious stones from Munich Project.jpg"
+    }
+  },
+  {
+    "id": "home-cooking-pot",
+    "sectionId": "home",
+    "en": "Cooking Pot",
+    "bnPron": "কুকিং পট",
+    "bnMeaning": "হাঁড়ি",
+    "emoji": "🍲",
+    "image": {
+      "file": "home-cooking-pot.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Matti Blume",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pot_(IMG_0261).jpg",
+      "title": "File:Pot (IMG 0261).jpg"
+    }
+  },
+  {
+    "id": "home-computer",
+    "sectionId": "home",
+    "en": "Computer",
+    "bnPron": "কম্পিউটার",
+    "bnMeaning": "কম্পিউটার",
+    "emoji": "💻",
+    "image": {
+      "file": "home-computer.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Syced",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Student_using_desktop_computer_at_CIJEF_in_2004.jpg",
+      "title": "File:Student using desktop computer at CIJEF in 2004.jpg"
+    }
+  },
+  {
+    "id": "home-camera",
+    "sectionId": "home",
+    "en": "Camera",
+    "bnPron": "ক্যামেরা",
+    "bnMeaning": "ক্যামেরা",
+    "emoji": "📷",
+    "image": {
+      "file": "home-camera.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Kameraprojekt Graz 2015",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LEI0440_Leica_IIIf_chrom_-_Sn._580566_1951-52-M39_Blitzsynchron_front_view-6531_hf-.jpg",
+      "title": "File:LEI0440_Leica_IIIf_chrom_-_Sn._580566_1951-52-M39_Blitzsynchron_front_view-6531_hf-.jpg"
     }
   },
   {
@@ -8800,166 +9160,6 @@
     }
   },
   {
-    "id": "home-alarm-clock",
-    "sectionId": "home",
-    "en": "Alarm Clock",
-    "bnPron": "অ্যালার্ম ক্লক",
-    "bnMeaning": "অ্যালার্ম ঘড়ি",
-    "emoji": "⏰",
-    "image": {
-      "file": "home-alarm-clock.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u23f0.svg"
-    }
-  },
-  {
-    "id": "home-television",
-    "sectionId": "home",
-    "en": "Television",
-    "bnPron": "টেলিভিশন",
-    "bnMeaning": "টেলিভিশন",
-    "emoji": "📺",
-    "image": {
-      "file": "home-television.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f4fa.svg"
-    }
-  },
-  {
-    "id": "home-mobile-phone",
-    "sectionId": "home",
-    "en": "Mobile Phone",
-    "bnPron": "মোবাইল ফোন",
-    "bnMeaning": "মোবাইল ফোন",
-    "emoji": "📱",
-    "image": {
-      "file": "home-mobile-phone.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f4f1.svg"
-    }
-  },
-  {
-    "id": "home-key",
-    "sectionId": "home",
-    "en": "Key",
-    "bnPron": "কি",
-    "bnMeaning": "চাবি",
-    "emoji": "🔑",
-    "image": {
-      "file": "home-key.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f511.svg"
-    }
-  },
-  {
-    "id": "home-broom",
-    "sectionId": "home",
-    "en": "Broom",
-    "bnPron": "ব্রুম",
-    "bnMeaning": "ঝাড়ু",
-    "emoji": "🧹",
-    "image": {
-      "file": "home-broom.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9f9.svg"
-    }
-  },
-  {
-    "id": "home-bucket",
-    "sectionId": "home",
-    "en": "Bucket",
-    "bnPron": "বাকেট",
-    "bnMeaning": "বালতি",
-    "emoji": "🪣",
-    "image": {
-      "file": "home-bucket.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1faa3.svg"
-    }
-  },
-  {
-    "id": "home-toothbrush",
-    "sectionId": "home",
-    "en": "Toothbrush",
-    "bnPron": "টুথব্রাশ",
-    "bnMeaning": "টুথব্রাশ",
-    "emoji": "🪥",
-    "image": {
-      "file": "home-toothbrush.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1faa5.svg"
-    }
-  },
-  {
-    "id": "home-soap",
-    "sectionId": "home",
-    "en": "Soap",
-    "bnPron": "সোপ",
-    "bnMeaning": "সাবান",
-    "emoji": "🧼",
-    "image": {
-      "file": "home-soap.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9fc.svg"
-    }
-  },
-  {
     "id": "home-mirror",
     "sectionId": "home",
     "en": "Mirror",
@@ -8977,206 +9177,6 @@
       "license": "Apache-2.0",
       "sourceUrl": "https://github.com/googlefonts/noto-emoji",
       "title": "emoji_u1fa9e.svg"
-    }
-  },
-  {
-    "id": "home-sofa",
-    "sectionId": "home",
-    "en": "Sofa",
-    "bnPron": "সোফা",
-    "bnMeaning": "সোফা",
-    "emoji": "🛋️",
-    "image": {
-      "file": "home-sofa.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f6cb.svg"
-    }
-  },
-  {
-    "id": "home-bathtub",
-    "sectionId": "home",
-    "en": "Bathtub",
-    "bnPron": "বাথটাব",
-    "bnMeaning": "বাথটাব",
-    "emoji": "🛁",
-    "image": {
-      "file": "home-bathtub.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f6c1.svg"
-    }
-  },
-  {
-    "id": "home-shower",
-    "sectionId": "home",
-    "en": "Shower",
-    "bnPron": "শাওয়ার",
-    "bnMeaning": "ঝরনা",
-    "emoji": "🚿",
-    "image": {
-      "file": "home-shower.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f6bf.svg"
-    }
-  },
-  {
-    "id": "home-candle",
-    "sectionId": "home",
-    "en": "Candle",
-    "bnPron": "ক্যান্ডেল",
-    "bnMeaning": "মোমবাতি",
-    "emoji": "🕯️",
-    "image": {
-      "file": "home-candle.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f56f.svg"
-    }
-  },
-  {
-    "id": "home-spoon",
-    "sectionId": "home",
-    "en": "Spoon",
-    "bnPron": "স্পুন",
-    "bnMeaning": "চামচ",
-    "emoji": "🥄",
-    "image": {
-      "file": "home-spoon.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f944.svg"
-    }
-  },
-  {
-    "id": "home-fork-and-plate",
-    "sectionId": "home",
-    "en": "Fork and Plate",
-    "bnPron": "ফর্ক অ্যান্ড প্লেট",
-    "bnMeaning": "থালা ও কাঁটাচামচ",
-    "emoji": "🍽️",
-    "image": {
-      "file": "home-fork-and-plate.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f37d.svg"
-    }
-  },
-  {
-    "id": "home-bowl",
-    "sectionId": "home",
-    "en": "Bowl",
-    "bnPron": "বোল",
-    "bnMeaning": "বাটি",
-    "emoji": "🥣",
-    "image": {
-      "file": "home-bowl.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f963.svg"
-    }
-  },
-  {
-    "id": "home-cooking-pot",
-    "sectionId": "home",
-    "en": "Cooking Pot",
-    "bnPron": "কুকিং পট",
-    "bnMeaning": "হাঁড়ি",
-    "emoji": "🍲",
-    "image": {
-      "file": "home-cooking-pot.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f372.svg"
-    }
-  },
-  {
-    "id": "home-computer",
-    "sectionId": "home",
-    "en": "Computer",
-    "bnPron": "কম্পিউটার",
-    "bnMeaning": "কম্পিউটার",
-    "emoji": "💻",
-    "image": {
-      "file": "home-computer.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f4bb.svg"
-    }
-  },
-  {
-    "id": "home-camera",
-    "sectionId": "home",
-    "en": "Camera",
-    "bnPron": "ক্যামেরা",
-    "bnMeaning": "ক্যামেরা",
-    "emoji": "📷",
-    "image": {
-      "file": "home-camera.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f4f7.svg"
     }
   },
   {
@@ -9209,14 +9209,14 @@
     "image": {
       "file": "school-book.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f4d6.svg"
+      "author": "NYC Wanderer (Kevin Eng)",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg",
+      "title": "File:Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg"
     }
   },
   {
@@ -9229,14 +9229,14 @@
     "image": {
       "file": "school-books.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f4da.svg"
+      "author": "mycurrency.com",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stack_of_Books_for_decor.jpg",
+      "title": "File:Stack of Books for decor.jpg"
     }
   },
   {
@@ -9249,14 +9249,14 @@
     "image": {
       "file": "school-pencil.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u270f.svg"
+      "author": "MichaelMaggs",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colouring_pencils.jpg",
+      "title": "File:Colouring pencils.jpg"
     }
   },
   {
@@ -9269,14 +9269,14 @@
     "image": {
       "file": "school-pen.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f58a.svg"
+      "author": "Daniel Schwen",
+      "license": "CC BY-SA 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macro_Biro_writing2.jpg",
+      "title": "File:Macro Biro writing2.jpg"
     }
   },
   {
@@ -9289,14 +9289,14 @@
     "image": {
       "file": "school-notebook.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f4d3.svg"
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spiralbinder%C3%BCcken_--_2022_--_9739_(bw).jpg",
+      "title": "File:Spiralbinderücken -- 2022 -- 9739 (bw).jpg"
     }
   },
   {
@@ -9309,14 +9309,14 @@
     "image": {
       "file": "school-ruler.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f4cf.svg"
+      "author": "Geof",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diverse%C2%B7Ma%C3%9Fst%C3%A4be,15.365.jpg",
+      "title": "File:Diverse·Maßstäbe,15.365.jpg"
     }
   },
   {
@@ -9329,14 +9329,14 @@
     "image": {
       "file": "school-school.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3eb.svg"
+      "author": "S. Kleinmichel",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A8%D0%BA%D0%BE%D0%BB%D0%B0_%E2%84%962_%D0%B3._%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%82%D1%83%D1%80%D1%8C%D0%B8%D0%BD%D1%81%D0%BA%D0%B0.jpg",
+      "title": "File:Школа_№2_г._Краснотурьинска.jpg"
     }
   },
   {
@@ -9349,14 +9349,14 @@
     "image": {
       "file": "school-school-bag.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f392.svg"
+      "author": "Gamingforfun365",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:School_bag_backpack.jpg",
+      "title": "File:School bag backpack.jpg"
     }
   },
   {
@@ -9369,14 +9369,14 @@
     "image": {
       "file": "school-paintbrush.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f58c.svg"
+      "author": "Hans Bernhard (Schnobby)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brushes_2.jpg",
+      "title": "File:Brushes 2.jpg"
     }
   },
   {
@@ -9389,14 +9389,14 @@
     "image": {
       "file": "school-crayon.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f58d.svg"
+      "author": "Ks.mini",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crayons_with_colors.JPG",
+      "title": "File:Crayons with colors.JPG"
     }
   },
   {
@@ -9409,14 +9409,14 @@
     "image": {
       "file": "school-world-map.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f5fa.svg"
+      "author": "Didier Descouens",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:(Venice)_French_goldsmith,_mechanical_celestial_and_terrestrial_globe,_post_1565_-_Correr_Museum.jpg",
+      "title": "File:(Venice) French goldsmith, mechanical celestial and terrestrial globe, post 1565 - Correr Museum.jpg"
     }
   },
   {
@@ -9429,14 +9429,14 @@
     "image": {
       "file": "school-abacus.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9ee.svg"
+      "author": "Syced",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abacus_actually_in_use_at_kimono_shop_in_Otaru.jpg",
+      "title": "File:Abacus actually in use at kimono shop in Otaru.jpg"
     }
   },
   {
@@ -9449,14 +9449,14 @@
     "image": {
       "file": "school-paperclip.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f4ce.svg"
+      "author": "Hawyih",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wanzijia.jpg",
+      "title": "File:Wanzijia.jpg"
     }
   },
   {
@@ -9469,14 +9469,14 @@
     "image": {
       "file": "school-magnifying-glass.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f50d.svg"
+      "author": "Heptagon",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magnifying_glass2.jpg",
+      "title": "File:Magnifying glass2.jpg"
     }
   },
   {
@@ -9489,14 +9489,14 @@
     "image": {
       "file": "school-microscope.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f52c.svg"
+      "author": "Chad Anderson, staff photographer for SFO Museum",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Binocular_compound_microscope,_Carl_Zeiss_Jena,_1914_(6779276516).jpg",
+      "title": "File:Binocular compound microscope, Carl Zeiss Jena, 1914 (6779276516).jpg"
     }
   },
   {
@@ -9509,14 +9509,14 @@
     "image": {
       "file": "school-telescope.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f52d.svg"
+      "author": "Palonitor",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kom%C3%A9ta_C-2020_F3_(NEOWISE).jpg",
+      "title": "File:Kométa C-2020 F3 (NEOWISE).jpg"
     }
   },
   {
@@ -9529,14 +9529,14 @@
     "image": {
       "file": "school-graduation-cap.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f393.svg"
+      "author": "Jebulon",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Unacademic_graduate_HEC_Paris.jpg",
+      "title": "File:Unacademic graduate HEC Paris.jpg"
     }
   },
   {
@@ -9549,14 +9549,14 @@
     "image": {
       "file": "school-colour-palette.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3a8.svg"
+      "author": "Shixart1985",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Art_tools_and_paint_palette_set_up_for_a_creative_session.jpg",
+      "title": "File:Art tools and paint palette set up for a creative session.jpg"
     }
   },
   {
@@ -9569,14 +9569,294 @@
     "image": {
       "file": "school-letter.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u2709.svg"
+      "author": "This picture has been taken by Oleg Yunakov. Contact e-mail: yunakovgmail.com. I",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:An_envelope_of_the_letter_from_President_Theodore_Roosevelt,_1909.jpg",
+      "title": "File:An envelope of the letter from President Theodore Roosevelt, 1909.jpg"
+    }
+  },
+  {
+    "id": "jobs-teacher",
+    "sectionId": "jobs",
+    "en": "Teacher",
+    "bnPron": "টিচার",
+    "bnMeaning": "শিক্ষক",
+    "emoji": "🧑‍🏫",
+    "image": {
+      "file": "jobs-teacher.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Harrison Keely",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_public_high_school_teacher_in_a_classroom_in_the_United_States_08.jpg",
+      "title": "File:A_public_high_school_teacher_in_a_classroom_in_the_United_States_08.jpg"
+    }
+  },
+  {
+    "id": "jobs-farmer",
+    "sectionId": "jobs",
+    "en": "Farmer",
+    "bnPron": "ফার্মার",
+    "bnMeaning": "কৃষক",
+    "emoji": "🧑‍🌾",
+    "image": {
+      "file": "jobs-farmer.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Ashikul Islam Anik",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmer_in_the_field_of_Bangladesh.jpg",
+      "title": "File:Farmer in the field of Bangladesh.jpg"
+    }
+  },
+  {
+    "id": "jobs-cook",
+    "sectionId": "jobs",
+    "en": "Cook",
+    "bnPron": "কুক",
+    "bnMeaning": "রাঁধুনি",
+    "emoji": "🧑‍🍳",
+    "image": {
+      "file": "jobs-cook.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "בר",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparing_Sushi_with_Chef_Eviatar_Churi_in_4Chef_Culinary_School_kitchen,_Israel.jpg",
+      "title": "File:Preparing Sushi with Chef Eviatar Churi in 4Chef Culinary School kitchen, Israel.jpg"
+    }
+  },
+  {
+    "id": "jobs-police-officer",
+    "sectionId": "jobs",
+    "en": "Police Officer",
+    "bnPron": "পুলিশ অফিসার",
+    "bnMeaning": "পুলিশ",
+    "emoji": "👮",
+    "image": {
+      "file": "jobs-police-officer.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Daniel Schwen",
+      "license": "CC BY-SA 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HH_Polizeihauptmeister_MZ.jpg",
+      "title": "File:HH Polizeihauptmeister MZ.jpg"
+    }
+  },
+  {
+    "id": "jobs-firefighter",
+    "sectionId": "jobs",
+    "en": "Firefighter",
+    "bnPron": "ফায়ারফাইটার",
+    "bnMeaning": "দমকলকর্মী",
+    "emoji": "🧑‍🚒",
+    "image": {
+      "file": "jobs-firefighter.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "StevenTerblanche",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Firefighter,_Ashton_Bay,_March_2017.jpg",
+      "title": "File:Firefighter, Ashton Bay, March 2017.jpg"
+    }
+  },
+  {
+    "id": "jobs-pilot",
+    "sectionId": "jobs",
+    "en": "Pilot",
+    "bnPron": "পাইলট",
+    "bnMeaning": "পাইলট",
+    "emoji": "🧑‍✈️",
+    "image": {
+      "file": "jobs-pilot.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Alfred T. Palmer",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lt_Mike_Hunter_1.jpg",
+      "title": "File:Lt_Mike_Hunter_1.jpg"
+    }
+  },
+  {
+    "id": "jobs-astronaut",
+    "sectionId": "jobs",
+    "en": "Astronaut",
+    "bnPron": "অ্যাস্ট্রোনট",
+    "bnMeaning": "মহাকাশচারী",
+    "emoji": "🧑‍🚀",
+    "image": {
+      "file": "jobs-astronaut.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Robert Markowitz",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samantha_Cristoforetti_official_portrait_in_an_EMU_spacesuit.jpg",
+      "title": "File:Samantha Cristoforetti official portrait in an EMU spacesuit.jpg"
+    }
+  },
+  {
+    "id": "jobs-mechanic",
+    "sectionId": "jobs",
+    "en": "Mechanic",
+    "bnPron": "মেকানিক",
+    "bnMeaning": "মিস্ত্রি",
+    "emoji": "🧑‍🔧",
+    "image": {
+      "file": "jobs-mechanic.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "User Interiot on en.wikipedia",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Auto_Mechanic.jpg",
+      "title": "File:Auto Mechanic.jpg"
+    }
+  },
+  {
+    "id": "jobs-artist",
+    "sectionId": "jobs",
+    "en": "Artist",
+    "bnPron": "আর্টিস্ট",
+    "bnMeaning": "শিল্পী",
+    "emoji": "🧑‍🎨",
+    "image": {
+      "file": "jobs-artist.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Painters_Xingping_town_20090502_6089.jpg",
+      "title": "File:Painters Xingping town 20090502 6089.jpg"
+    }
+  },
+  {
+    "id": "jobs-scientist",
+    "sectionId": "jobs",
+    "en": "Scientist",
+    "bnPron": "সায়েন্টিস্ট",
+    "bnMeaning": "বিজ্ঞানী",
+    "emoji": "🧑‍🔬",
+    "image": {
+      "file": "jobs-scientist.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Smithsonian Institution/Science Service; Restored by Adam Cuerden",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947.jpg",
+      "title": "File:Barbara McClintock (1902-1992) shown in her laboratory in 1947.jpg"
+    }
+  },
+  {
+    "id": "jobs-judge",
+    "sectionId": "jobs",
+    "en": "Judge",
+    "bnPron": "জাজ",
+    "bnMeaning": "বিচারক",
+    "emoji": "🧑‍⚖️",
+    "image": {
+      "file": "jobs-judge.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Jeroen Bouman",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ICJ-CJI_hearing_1.jpg",
+      "title": "File:ICJ-CJI_hearing_1.jpg"
+    }
+  },
+  {
+    "id": "jobs-builder",
+    "sectionId": "jobs",
+    "en": "Builder",
+    "bnPron": "বিল্ডার",
+    "bnMeaning": "নির্মাণশ্রমিক",
+    "emoji": "👷",
+    "image": {
+      "file": "jobs-builder.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Hong Kong Free Press",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_worker_wears_a_helmet_and_visor_at_a_Hong_Kong_construction_site_during_a_heatwave.jpg",
+      "title": "File:A worker wears a helmet and visor at a Hong Kong construction site during a heatwave.jpg"
+    }
+  },
+  {
+    "id": "jobs-singer",
+    "sectionId": "jobs",
+    "en": "Singer",
+    "bnPron": "সিঙ্গার",
+    "bnMeaning": "গায়ক",
+    "emoji": "🧑‍🎤",
+    "image": {
+      "file": "jobs-singer.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Diana Farroukh",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lebanese_singer_Shiraz_on_Platea_Stage_of_Juniyah.jpg",
+      "title": "File:Lebanese singer Shiraz on Platea Stage of Juniyah.jpg"
+    }
+  },
+  {
+    "id": "jobs-factory-worker",
+    "sectionId": "jobs",
+    "en": "Factory Worker",
+    "bnPron": "ফ্যাক্টরি ওয়ার্কার",
+    "bnMeaning": "কারখানার কর্মী",
+    "emoji": "🧑‍🏭",
+    "image": {
+      "file": "jobs-factory-worker.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "AndreasPraefcke",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wolfsburg_VW-Werk.jpg",
+      "title": "File:Wolfsburg_VW-Werk.jpg"
     }
   },
   {
@@ -9600,286 +9880,6 @@
     }
   },
   {
-    "id": "jobs-teacher",
-    "sectionId": "jobs",
-    "en": "Teacher",
-    "bnPron": "টিচার",
-    "bnMeaning": "শিক্ষক",
-    "emoji": "🧑‍🏫",
-    "image": {
-      "file": "jobs-teacher.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_1f3eb.svg"
-    }
-  },
-  {
-    "id": "jobs-farmer",
-    "sectionId": "jobs",
-    "en": "Farmer",
-    "bnPron": "ফার্মার",
-    "bnMeaning": "কৃষক",
-    "emoji": "🧑‍🌾",
-    "image": {
-      "file": "jobs-farmer.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_1f33e.svg"
-    }
-  },
-  {
-    "id": "jobs-cook",
-    "sectionId": "jobs",
-    "en": "Cook",
-    "bnPron": "কুক",
-    "bnMeaning": "রাঁধুনি",
-    "emoji": "🧑‍🍳",
-    "image": {
-      "file": "jobs-cook.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_1f373.svg"
-    }
-  },
-  {
-    "id": "jobs-police-officer",
-    "sectionId": "jobs",
-    "en": "Police Officer",
-    "bnPron": "পুলিশ অফিসার",
-    "bnMeaning": "পুলিশ",
-    "emoji": "👮",
-    "image": {
-      "file": "jobs-police-officer.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f46e.svg"
-    }
-  },
-  {
-    "id": "jobs-firefighter",
-    "sectionId": "jobs",
-    "en": "Firefighter",
-    "bnPron": "ফায়ারফাইটার",
-    "bnMeaning": "দমকলকর্মী",
-    "emoji": "🧑‍🚒",
-    "image": {
-      "file": "jobs-firefighter.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_1f692.svg"
-    }
-  },
-  {
-    "id": "jobs-pilot",
-    "sectionId": "jobs",
-    "en": "Pilot",
-    "bnPron": "পাইলট",
-    "bnMeaning": "পাইলট",
-    "emoji": "🧑‍✈️",
-    "image": {
-      "file": "jobs-pilot.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_2708.svg"
-    }
-  },
-  {
-    "id": "jobs-astronaut",
-    "sectionId": "jobs",
-    "en": "Astronaut",
-    "bnPron": "অ্যাস্ট্রোনট",
-    "bnMeaning": "মহাকাশচারী",
-    "emoji": "🧑‍🚀",
-    "image": {
-      "file": "jobs-astronaut.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_1f680.svg"
-    }
-  },
-  {
-    "id": "jobs-mechanic",
-    "sectionId": "jobs",
-    "en": "Mechanic",
-    "bnPron": "মেকানিক",
-    "bnMeaning": "মিস্ত্রি",
-    "emoji": "🧑‍🔧",
-    "image": {
-      "file": "jobs-mechanic.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_1f527.svg"
-    }
-  },
-  {
-    "id": "jobs-artist",
-    "sectionId": "jobs",
-    "en": "Artist",
-    "bnPron": "আর্টিস্ট",
-    "bnMeaning": "শিল্পী",
-    "emoji": "🧑‍🎨",
-    "image": {
-      "file": "jobs-artist.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_1f3a8.svg"
-    }
-  },
-  {
-    "id": "jobs-scientist",
-    "sectionId": "jobs",
-    "en": "Scientist",
-    "bnPron": "সায়েন্টিস্ট",
-    "bnMeaning": "বিজ্ঞানী",
-    "emoji": "🧑‍🔬",
-    "image": {
-      "file": "jobs-scientist.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_1f52c.svg"
-    }
-  },
-  {
-    "id": "jobs-judge",
-    "sectionId": "jobs",
-    "en": "Judge",
-    "bnPron": "জাজ",
-    "bnMeaning": "বিচারক",
-    "emoji": "🧑‍⚖️",
-    "image": {
-      "file": "jobs-judge.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_2696.svg"
-    }
-  },
-  {
-    "id": "jobs-builder",
-    "sectionId": "jobs",
-    "en": "Builder",
-    "bnPron": "বিল্ডার",
-    "bnMeaning": "নির্মাণশ্রমিক",
-    "emoji": "👷",
-    "image": {
-      "file": "jobs-builder.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f477.svg"
-    }
-  },
-  {
-    "id": "jobs-singer",
-    "sectionId": "jobs",
-    "en": "Singer",
-    "bnPron": "সিঙ্গার",
-    "bnMeaning": "গায়ক",
-    "emoji": "🧑‍🎤",
-    "image": {
-      "file": "jobs-singer.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_1f3a4.svg"
-    }
-  },
-  {
-    "id": "jobs-factory-worker",
-    "sectionId": "jobs",
-    "en": "Factory Worker",
-    "bnPron": "ফ্যাক্টরি ওয়ার্কার",
-    "bnMeaning": "কারখানার কর্মী",
-    "emoji": "🧑‍🏭",
-    "image": {
-      "file": "jobs-factory-worker.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9d1_200d_1f3ed.svg"
-    }
-  },
-  {
     "id": "nature-sun",
     "sectionId": "nature",
     "en": "Sun",
@@ -9889,14 +9889,14 @@
     "image": {
       "file": "nature-sun.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u2600.svg"
+      "author": "Matúš Motlo",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Sun_in_white_light.jpg",
+      "title": "File:The_Sun_in_white_light.jpg"
     }
   },
   {
@@ -9909,14 +9909,14 @@
     "image": {
       "file": "nature-moon.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f315.svg"
+      "author": "Luc Viatour",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Full_Moon_Luc_Viatour.jpg",
+      "title": "File:Full Moon Luc Viatour.jpg"
     }
   },
   {
@@ -9929,14 +9929,14 @@
     "image": {
       "file": "nature-shooting-star.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f320.svg"
+      "author": "NASA Headquarters / NASA/Bill Ingalls",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meteor_Shower_(NHQ202508030001).jpg",
+      "title": "File:Meteor Shower (NHQ202508030001).jpg"
     }
   },
   {
@@ -9949,14 +9949,14 @@
     "image": {
       "file": "nature-cloud.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u2601.svg"
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colorful_clouds_and_blue_sky_with_water_reflection_of_an_island_hosting_trees_at_sunrise_in_Si_Phan_Don,_Laos.jpg",
+      "title": "File:Colorful clouds and blue sky with water reflection of an island hosting trees at sunrise in Si Phan Don, Laos.jpg"
     }
   },
   {
@@ -9969,14 +9969,14 @@
     "image": {
       "file": "nature-rain.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f327.svg"
+      "author": "Tomascastelazo",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Falling_rain_in_mexico.jpg",
+      "title": "File:Falling rain in mexico.jpg"
     }
   },
   {
@@ -9989,14 +9989,14 @@
     "image": {
       "file": "nature-rainbow.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f308.svg"
+      "author": "Wing-Chi Poon",
+      "license": "CC BY-SA 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:WhereRainbowRises.jpg",
+      "title": "File:WhereRainbowRises.jpg"
     }
   },
   {
@@ -10009,14 +10009,14 @@
     "image": {
       "file": "nature-lightning.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u26a1.svg"
+      "author": "Maxime Raynal from France",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg",
+      "title": "File:Port and lighthouse overnight storm with lightning in Port-la-Nouvelle.jpg"
     }
   },
   {
@@ -10029,14 +10029,14 @@
     "image": {
       "file": "nature-snowflake.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u2744.svg"
+      "author": "Alexey Kljatov",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowflake_macro_photography_1.jpg",
+      "title": "File:Snowflake macro photography 1.jpg"
     }
   },
   {
@@ -10049,14 +10049,14 @@
     "image": {
       "file": "nature-snowman.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u26c4.svg"
+      "author": "Sphiiix",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bonhomme_de_neige_2.jpg",
+      "title": "File:Bonhomme de neige 2.jpg"
     }
   },
   {
@@ -10069,14 +10069,14 @@
     "image": {
       "file": "nature-wind.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f32c.svg"
+      "author": "Richardfabi",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Windbuchencom.jpg",
+      "title": "File:Windbuchencom.jpg"
     }
   },
   {
@@ -10089,14 +10089,14 @@
     "image": {
       "file": "nature-tornado.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f32a.svg"
+      "author": "Justin Hobson (Justin1569 at English Wikipedia)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:F5_tornado_Elie_Manitoba_2007.jpg",
+      "title": "File:F5 tornado Elie Manitoba 2007.jpg"
     }
   },
   {
@@ -10109,14 +10109,14 @@
     "image": {
       "file": "nature-fire.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f525.svg"
+      "author": "Marc-Lautenbacher",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campfire_flames_at_night.jpg",
+      "title": "File:Campfire flames at night.jpg"
     }
   },
   {
@@ -10129,14 +10129,14 @@
     "image": {
       "file": "nature-water-drop.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f4a7.svg"
+      "author": "José Manuel Suárez from Spain",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_drop_001.jpg",
+      "title": "File:Water drop 001.jpg"
     }
   },
   {
@@ -10149,14 +10149,14 @@
     "image": {
       "file": "nature-mountain.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u26f0.svg"
+      "author": "Godot13",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain_Peak,_Alaska_(1999).jpg",
+      "title": "File:Mountain Peak, Alaska (1999).jpg"
     }
   },
   {
@@ -10169,14 +10169,14 @@
     "image": {
       "file": "nature-volcano.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f30b.svg"
+      "author": "Wolfgang Beyer",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stromboli_Eruption.jpg",
+      "title": "File:Stromboli Eruption.jpg"
     }
   },
   {
@@ -10189,14 +10189,14 @@
     "image": {
       "file": "nature-earth.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f30d.svg"
+      "author": "NASA/NOAA/GSFC/Suomi NPP/VIIRS/Norman Kuring",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_America_from_low_orbiting_satellite_Suomi_NPP.jpg",
+      "title": "File:North America from low orbiting satellite Suomi NPP.jpg"
     }
   },
   {
@@ -10209,14 +10209,14 @@
     "image": {
       "file": "nature-wave.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f30a.svg"
+      "author": "Brigittebourger Brigitte Bourger",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_horde_-_Surfers_riding_a_wave_in_Paea,_Tahiti.jpg",
+      "title": "File:La horde - Surfers riding a wave in Paea, Tahiti.jpg"
     }
   },
   {
@@ -10229,14 +10229,14 @@
     "image": {
       "file": "nature-island.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3dd.svg"
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bled_Island_07.jpg",
+      "title": "File:Bled Island 07.jpg"
     }
   },
   {
@@ -10249,14 +10249,14 @@
     "image": {
       "file": "nature-desert.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3dc.svg"
+      "author": "Clément Bardot",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunes,_D%C3%A9sert_du_Thar.jpg",
+      "title": "File:Dunes, Désert du Thar.jpg"
     }
   },
   {
@@ -10269,14 +10269,14 @@
     "image": {
       "file": "nature-sunrise.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f305.svg"
+      "author": "Abrget47j",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunrise_at_viru_bog.jpg",
+      "title": "File:Sunrise at viru bog.jpg"
     }
   },
   {
@@ -10289,14 +10289,14 @@
     "image": {
       "file": "nature-comet.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u2604.svg"
+      "author": "W.carter",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Comet_Tsuchinshan%E2%80%93ATLAS,_in_the_night_sky_over_Tuntorp_3.jpg",
+      "title": "File:Comet Tsuchinshan–ATLAS, in the night sky over Tuntorp 3.jpg"
     }
   },
   {
@@ -10329,14 +10329,14 @@
     "image": {
       "file": "music-guitar.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3b8.svg"
+      "author": "Wilfredor",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Man_playing_an_acoustic_brazilian_guitar_(Viol%C3%A3o)_on_Marco_Zero_Square,_Refice,_Pernambuco,_Brazil.jpg",
+      "title": "File:Man playing an acoustic brazilian guitar (Violão) on Marco Zero Square, Refice, Pernambuco, Brazil.jpg"
     }
   },
   {
@@ -10349,14 +10349,194 @@
     "image": {
       "file": "music-piano.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3b9.svg"
+      "author": "LanderBik",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toetsen_Johannusorgel_Heilig_Hartkerk_Hasselt.jpg",
+      "title": "File:Toetsen Johannusorgel Heilig Hartkerk Hasselt.jpg"
+    }
+  },
+  {
+    "id": "music-violin",
+    "sectionId": "music",
+    "en": "Violin",
+    "bnPron": "ভায়োলিন",
+    "bnMeaning": "বেহালা",
+    "emoji": "🎻",
+    "image": {
+      "file": "music-violin.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Areafin tawfiq",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Violin_%26_bow.jpg",
+      "title": "File:Violin & bow.jpg"
+    }
+  },
+  {
+    "id": "music-trumpet",
+    "sectionId": "music",
+    "en": "Trumpet",
+    "bnPron": "ট্রাম্পেট",
+    "bnMeaning": "ট্রাম্পেট",
+    "emoji": "🎺",
+    "image": {
+      "file": "music-trumpet.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Eusebius",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trompette_-_corps.JPG",
+      "title": "File:Trompette - corps.JPG"
+    }
+  },
+  {
+    "id": "music-saxophone",
+    "sectionId": "music",
+    "en": "Saxophone",
+    "bnPron": "স্যাক্সোফোন",
+    "bnMeaning": "স্যাক্সোফোন",
+    "emoji": "🎷",
+    "image": {
+      "file": "music-saxophone.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Yamaha Corporation",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yamaha_Saxophone_YSS-875_EX.jpg",
+      "title": "File:Yamaha Saxophone YSS-875 EX.jpg"
+    }
+  },
+  {
+    "id": "music-microphone",
+    "sectionId": "music",
+    "en": "Microphone",
+    "bnPron": "মাইক্রোফোন",
+    "bnMeaning": "মাইক্রোফোন",
+    "emoji": "🎤",
+    "image": {
+      "file": "music-microphone.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Lucasbosch",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AKG_C214_Condenser_microphone.jpg",
+      "title": "File:AKG C214 Condenser microphone.jpg"
+    }
+  },
+  {
+    "id": "music-headphones",
+    "sectionId": "music",
+    "en": "Headphones",
+    "bnPron": "হেডফোন",
+    "bnMeaning": "হেডফোন",
+    "emoji": "🎧",
+    "image": {
+      "file": "music-headphones.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Florian Fuchs",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bose_QuietComfort_25_Acoustic_Noise_Cancelling_Headphones_with_Carry_Case.jpg",
+      "title": "File:Bose QuietComfort 25 Acoustic Noise Cancelling Headphones with Carry Case.jpg"
+    }
+  },
+  {
+    "id": "music-bell",
+    "sectionId": "music",
+    "en": "Bell",
+    "bnPron": "বেল",
+    "bnMeaning": "ঘণ্টা",
+    "emoji": "🔔",
+    "image": {
+      "file": "music-bell.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Randolph F. Miller and William Kieckhofel",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Randolph_F._Miller_and_William_Kieckhofel,_Brass_Bell,_1940,_NGA_18900.jpg",
+      "title": "File:Randolph F. Miller and William Kieckhofel, Brass Bell, 1940, NGA 18900.jpg"
+    }
+  },
+  {
+    "id": "music-musical-note",
+    "sectionId": "music",
+    "en": "Musical Note",
+    "bnPron": "মিউজিক্যাল নোট",
+    "bnMeaning": "সুর",
+    "emoji": "🎵",
+    "image": {
+      "file": "music-musical-note.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Frédéric Chopin",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chopin_polonaise_Op._53.jpg",
+      "title": "File:Chopin polonaise Op. 53.jpg"
+    }
+  },
+  {
+    "id": "music-banjo",
+    "sectionId": "music",
+    "en": "Banjo",
+    "bnPron": "ব্যাঞ্জো",
+    "bnMeaning": "ব্যাঞ্জো",
+    "emoji": "🪕",
+    "image": {
+      "file": "music-banjo.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Jacqke",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jazz-Age_banjos,_American_Banjo_Museum.jpg",
+      "title": "File:Jazz-Age banjos, American Banjo Museum.jpg"
+    }
+  },
+  {
+    "id": "music-long-drum",
+    "sectionId": "music",
+    "en": "Long Drum",
+    "bnPron": "লং ড্রাম",
+    "bnMeaning": "মাদল",
+    "emoji": "🪘",
+    "image": {
+      "file": "music-long-drum.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Shohrab Hossain Titu",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dhol_the_oldest_folk_instruments.jpg",
+      "title": "File:Dhol the oldest folk instruments.jpg"
     }
   },
   {
@@ -10380,186 +10560,6 @@
     }
   },
   {
-    "id": "music-violin",
-    "sectionId": "music",
-    "en": "Violin",
-    "bnPron": "ভায়োলিন",
-    "bnMeaning": "বেহালা",
-    "emoji": "🎻",
-    "image": {
-      "file": "music-violin.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3bb.svg"
-    }
-  },
-  {
-    "id": "music-trumpet",
-    "sectionId": "music",
-    "en": "Trumpet",
-    "bnPron": "ট্রাম্পেট",
-    "bnMeaning": "ট্রাম্পেট",
-    "emoji": "🎺",
-    "image": {
-      "file": "music-trumpet.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3ba.svg"
-    }
-  },
-  {
-    "id": "music-saxophone",
-    "sectionId": "music",
-    "en": "Saxophone",
-    "bnPron": "স্যাক্সোফোন",
-    "bnMeaning": "স্যাক্সোফোন",
-    "emoji": "🎷",
-    "image": {
-      "file": "music-saxophone.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3b7.svg"
-    }
-  },
-  {
-    "id": "music-microphone",
-    "sectionId": "music",
-    "en": "Microphone",
-    "bnPron": "মাইক্রোফোন",
-    "bnMeaning": "মাইক্রোফোন",
-    "emoji": "🎤",
-    "image": {
-      "file": "music-microphone.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3a4.svg"
-    }
-  },
-  {
-    "id": "music-headphones",
-    "sectionId": "music",
-    "en": "Headphones",
-    "bnPron": "হেডফোন",
-    "bnMeaning": "হেডফোন",
-    "emoji": "🎧",
-    "image": {
-      "file": "music-headphones.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3a7.svg"
-    }
-  },
-  {
-    "id": "music-bell",
-    "sectionId": "music",
-    "en": "Bell",
-    "bnPron": "বেল",
-    "bnMeaning": "ঘণ্টা",
-    "emoji": "🔔",
-    "image": {
-      "file": "music-bell.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f514.svg"
-    }
-  },
-  {
-    "id": "music-musical-note",
-    "sectionId": "music",
-    "en": "Musical Note",
-    "bnPron": "মিউজিক্যাল নোট",
-    "bnMeaning": "সুর",
-    "emoji": "🎵",
-    "image": {
-      "file": "music-musical-note.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3b5.svg"
-    }
-  },
-  {
-    "id": "music-banjo",
-    "sectionId": "music",
-    "en": "Banjo",
-    "bnPron": "ব্যাঞ্জো",
-    "bnMeaning": "ব্যাঞ্জো",
-    "emoji": "🪕",
-    "image": {
-      "file": "music-banjo.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1fa95.svg"
-    }
-  },
-  {
-    "id": "music-long-drum",
-    "sectionId": "music",
-    "en": "Long Drum",
-    "bnPron": "লং ড্রাম",
-    "bnMeaning": "মাদল",
-    "emoji": "🪘",
-    "image": {
-      "file": "music-long-drum.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1fa98.svg"
-    }
-  },
-  {
     "id": "places-house",
     "sectionId": "places",
     "en": "House",
@@ -10569,14 +10569,14 @@
     "image": {
       "file": "places-house.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3e0.svg"
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ljungris_July_2013.jpg",
+      "title": "File:Ljungris July 2013.jpg"
     }
   },
   {
@@ -10589,14 +10589,14 @@
     "image": {
       "file": "places-hospital.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3e5.svg"
+      "author": "H501zalc",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hospital-de-Bellvitge.jpg",
+      "title": "File:Hospital-de-Bellvitge.jpg"
     }
   },
   {
@@ -10609,14 +10609,14 @@
     "image": {
       "file": "places-mosque.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f54c.svg"
+      "author": "King Eliot",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masjid_e_Nabawi_Interior_2.jpg",
+      "title": "File:Masjid_e_Nabawi_Interior_2.jpg"
     }
   },
   {
@@ -10629,14 +10629,14 @@
     "image": {
       "file": "places-temple.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f6d5.svg"
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Three_quarter_view_of_the_ruined_Khmer_Hindu_temple_of_Wat_Phou_with_blue_sky_in_Champasak_Laos.jpg",
+      "title": "File:Three quarter view of the ruined Khmer Hindu temple of Wat Phou with blue sky in Champasak Laos.jpg"
     }
   },
   {
@@ -10649,14 +10649,14 @@
     "image": {
       "file": "places-church.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u26ea.svg"
+      "author": "King of Hearts",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stanford_Memorial_Church_May_2011_HDR_1.jpg",
+      "title": "File:Stanford Memorial Church May 2011 HDR 1.jpg"
     }
   },
   {
@@ -10669,14 +10669,14 @@
     "image": {
       "file": "places-shop.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3ea.svg"
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Comercio_en_la_plaza_del_9_de_abril_de_1947,_T%C3%A1nger,_Marruecos,_2015-12-11,_DD_78.JPG",
+      "title": "File:Comercio_en_la_plaza_del_9_de_abril_de_1947,_Tánger,_Marruecos,_2015-12-11,_DD_78.JPG"
     }
   },
   {
@@ -10689,14 +10689,14 @@
     "image": {
       "file": "places-bank.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3e6.svg"
+      "author": "Acroterion",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Building_Baltimore_MD1.jpg",
+      "title": "File:Bank of America Building Baltimore MD1.jpg"
     }
   },
   {
@@ -10709,14 +10709,14 @@
     "image": {
       "file": "places-post-office.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3e3.svg"
+      "author": "Mattinbgn",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:EdithburghPostOffice.JPG",
+      "title": "File:EdithburghPostOffice.JPG"
     }
   },
   {
@@ -10729,14 +10729,14 @@
     "image": {
       "file": "places-bridge.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f309.svg"
+      "author": "Sj.jamali",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kizil_Hauzen_Bridge_2013.jpg",
+      "title": "File:Kizil Hauzen Bridge 2013.jpg"
     }
   },
   {
@@ -10749,14 +10749,14 @@
     "image": {
       "file": "places-fountain.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u26f2.svg"
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fuente_en_Baku,_Azerbaiy%C3%A1n,_2016-09-26,_DD_227-229_HDR.jpg",
+      "title": "File:Fuente en Baku, Azerbaiyán, 2016-09-26, DD 227-229 HDR.jpg"
     }
   },
   {
@@ -10769,14 +10769,14 @@
     "image": {
       "file": "places-castle.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3f0.svg"
+      "author": "Thomas Wolf, www.foto-tw.de",
+      "license": "CC BY-SA 3.0 de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schloss_Neuschwanstein_2013.jpg",
+      "title": "File:Schloss Neuschwanstein 2013.jpg"
     }
   },
   {
@@ -10789,14 +10789,14 @@
     "image": {
       "file": "places-tent.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u26fa.svg"
+      "author": "Another one of my pictures: This photograph was taken by Medium69 (William Croch",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campement_-_20150802_15h44_(10723).jpg",
+      "title": "File:Campement - 20150802 15h44 (10723).jpg"
     }
   },
   {
@@ -10809,14 +10809,14 @@
     "image": {
       "file": "places-park.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3de.svg"
+      "author": "File:Halleyparknovember.jpg: Celco85 derivative work: Georgfotoart",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halleyparknovember_b_(cropped).jpg",
+      "title": "File:Halleyparknovember_b_(cropped).jpg"
     }
   },
   {
@@ -10829,14 +10829,14 @@
     "image": {
       "file": "places-factory.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3ed.svg"
+      "author": "Radomianin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nikiszowiec,_courtyard_with_chimneys,_2024-08-09.jpg",
+      "title": "File:Nikiszowiec, courtyard with chimneys, 2024-08-09.jpg"
     }
   },
   {
@@ -10849,14 +10849,14 @@
     "image": {
       "file": "places-train-station.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f689.svg"
+      "author": "Michael Gäbler",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Railway_station_Kreiensen_1963.JPG",
+      "title": "File:Railway station Kreiensen 1963.JPG"
     }
   },
   {
@@ -10869,14 +10869,14 @@
     "image": {
       "file": "places-office-building.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3e2.svg"
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_side_of_Manhattan_from_Hudson_Commons_(95103p).jpg",
+      "title": "File:West_side_of_Manhattan_from_Hudson_Commons_(95103p).jpg"
     }
   },
   {
@@ -10889,14 +10889,14 @@
     "image": {
       "file": "places-hotel.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3e8.svg"
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_hoist_along_the_Andaz_Hotel_of_Singapore_at_sunset.jpg",
+      "title": "File:Façade hoist along the Andaz Hotel of Singapore at sunset.jpg"
     }
   },
   {
@@ -10909,14 +10909,14 @@
     "image": {
       "file": "places-stadium.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3df.svg"
+      "author": "Florstein (Telegram:WikiPhoto.Space)",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petrovskiy_football_stadium_in_SPB.jpg",
+      "title": "File:Petrovskiy football stadium in SPB.jpg"
     }
   },
   {
@@ -10929,14 +10929,14 @@
     "image": {
       "file": "places-tower.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f5fc.svg"
+      "author": "Wladyslaw",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Toronto_Harbourfront7.jpg",
+      "title": "File:Toronto - ON - Toronto Harbourfront7.jpg"
     }
   },
   {
@@ -10949,14 +10949,14 @@
     "image": {
       "file": "places-hut.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f6d6.svg"
+      "author": "Ferdous",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_village_hut_roof_ruined_by_stroam_-_4.jpg",
+      "title": "File:A village hut roof ruined by stroam - 4.jpg"
     }
   },
   {
@@ -10969,14 +10969,14 @@
     "image": {
       "file": "toys-teddy-bear.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9f8.svg"
+      "author": "Jacek Halicki",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Pluszowy_mi%C5%9B.jpg",
+      "title": "File:2023 Pluszowy miś.jpg"
     }
   },
   {
@@ -10989,14 +10989,14 @@
     "image": {
       "file": "toys-kite.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1fa81.svg"
+      "author": "Jon Sullivan",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kitesflying.jpg",
+      "title": "File:Kitesflying.jpg"
     }
   },
   {
@@ -11009,14 +11009,14 @@
     "image": {
       "file": "toys-balloon.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f388.svg"
+      "author": "Kropsoq",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2006_Ojiya_balloon_festival_night_004.jpg",
+      "title": "File:2006 Ojiya balloon festival night 004.jpg"
     }
   },
   {
@@ -11029,14 +11029,14 @@
     "image": {
       "file": "toys-doll.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1fa86.svg"
+      "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dutch_doll_from_Gr%C3%B6den.jpg",
+      "title": "File:Dutch doll from Gröden.jpg"
     }
   },
   {
@@ -11049,14 +11049,14 @@
     "image": {
       "file": "toys-puzzle.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f9e9.svg"
+      "author": "Colin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall_-_1000_piece_jigsaw_puzzle.jpg",
+      "title": "File:Palace of Westminster from the dome on Methodist Central Hall - 1000 piece jigsaw puzzle.jpg"
     }
   },
   {
@@ -11069,14 +11069,14 @@
     "image": {
       "file": "toys-dice.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3b2.svg"
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:W%C3%BCrfel,_gemischt_--_2021_--_5577.jpg",
+      "title": "File:Würfel, gemischt -- 2021 -- 5577.jpg"
     }
   },
   {
@@ -11089,14 +11089,14 @@
     "image": {
       "file": "toys-yo-yo.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1fa80.svg"
+      "author": "Evan-Amos",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yo-Yo-Plastic-Toy-Green.jpg",
+      "title": "File:Yo-Yo-Plastic-Toy-Green.jpg"
     }
   },
   {
@@ -11109,14 +11109,14 @@
     "image": {
       "file": "toys-toy-robot.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f916.svg"
+      "author": "D J Shin",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ha_Ha_Toys,_Planet_Robot,_Blue,_Main_Street_Toys_Exclusive,_Double_Dose.jpg",
+      "title": "File:Ha Ha Toys, Planet Robot, Blue, Main Street Toys Exclusive, Double Dose.jpg"
     }
   },
   {
@@ -11129,14 +11129,94 @@
     "image": {
       "file": "toys-gift.webp",
       "w": 960,
-      "h": 720,
+      "h": 560,
       "hasCutout": false
     },
     "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f381.svg"
+      "author": "Shixart1985",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown_gift_box_with_red_ribbon_and_bow.jpg",
+      "title": "File:Brown gift box with red ribbon and bow.jpg"
+    }
+  },
+  {
+    "id": "toys-ferris-wheel",
+    "sectionId": "toys",
+    "en": "Ferris Wheel",
+    "bnPron": "ফেরিস হুইল",
+    "bnMeaning": "নাগরদোলা",
+    "emoji": "🎡",
+    "image": {
+      "file": "toys-ferris-wheel.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Illuminated_Ferris_wheel,_bouncing_castle_and_carousel_at_night_in_a_funfair_in_Vientiane,_Laos.jpg",
+      "title": "File:Illuminated Ferris wheel, bouncing castle and carousel at night in a funfair in Vientiane, Laos.jpg"
+    }
+  },
+  {
+    "id": "toys-carousel-horse",
+    "sectionId": "toys",
+    "en": "Carousel Horse",
+    "bnPron": "ক্যারাউসেল হর্স",
+    "bnMeaning": "ঘোড়ার নাগরদোলা",
+    "emoji": "🎠",
+    "image": {
+      "file": "toys-carousel-horse.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "John W. Kelleher",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_W._Kelleher,_Carousel_Horse,_1940,_NGA_21347.jpg",
+      "title": "File:John W. Kelleher, Carousel Horse, 1940, NGA 21347.jpg"
+    }
+  },
+  {
+    "id": "toys-bubbles",
+    "sectionId": "toys",
+    "en": "Bubbles",
+    "bnPron": "বাবলস",
+    "bnMeaning": "বুদবুদ",
+    "emoji": "🫧",
+    "image": {
+      "file": "toys-bubbles.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "KarlGaff",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lipid_Islands_on_Soap_Bubble.jpg",
+      "title": "File:Lipid Islands on Soap Bubble.jpg"
+    }
+  },
+  {
+    "id": "toys-boomerang",
+    "sectionId": "toys",
+    "en": "Boomerang",
+    "bnPron": "বুমেরাং",
+    "bnMeaning": "বুমেরাং",
+    "emoji": "🪃",
+    "image": {
+      "file": "toys-boomerang.webp",
+      "w": 960,
+      "h": 560,
+      "hasCutout": false
+    },
+    "credit": {
+      "author": "Rama MEG — Musée d’ethnographie de Genève (official website)",
+      "license": "CC BY-SA 3.0 fr",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boomerang-ETHOC_026590-P8190456-gradient.jpg",
+      "title": "File:Boomerang-ETHOC 026590-P8190456-gradient.jpg"
     }
   },
   {
@@ -11160,46 +11240,6 @@
     }
   },
   {
-    "id": "toys-ferris-wheel",
-    "sectionId": "toys",
-    "en": "Ferris Wheel",
-    "bnPron": "ফেরিস হুইল",
-    "bnMeaning": "নাগরদোলা",
-    "emoji": "🎡",
-    "image": {
-      "file": "toys-ferris-wheel.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3a1.svg"
-    }
-  },
-  {
-    "id": "toys-carousel-horse",
-    "sectionId": "toys",
-    "en": "Carousel Horse",
-    "bnPron": "ক্যারাউসেল হর্স",
-    "bnMeaning": "ঘোড়ার নাগরদোলা",
-    "emoji": "🎠",
-    "image": {
-      "file": "toys-carousel-horse.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1f3a0.svg"
-    }
-  },
-  {
     "id": "toys-magic-wand",
     "sectionId": "toys",
     "en": "Magic Wand",
@@ -11217,46 +11257,6 @@
       "license": "Apache-2.0",
       "sourceUrl": "https://github.com/googlefonts/noto-emoji",
       "title": "emoji_u1fa84.svg"
-    }
-  },
-  {
-    "id": "toys-bubbles",
-    "sectionId": "toys",
-    "en": "Bubbles",
-    "bnPron": "বাবলস",
-    "bnMeaning": "বুদবুদ",
-    "emoji": "🫧",
-    "image": {
-      "file": "toys-bubbles.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1fae7.svg"
-    }
-  },
-  {
-    "id": "toys-boomerang",
-    "sectionId": "toys",
-    "en": "Boomerang",
-    "bnPron": "বুমেরাং",
-    "bnMeaning": "বুমেরাং",
-    "emoji": "🪃",
-    "image": {
-      "file": "toys-boomerang.webp",
-      "w": 960,
-      "h": 720,
-      "hasCutout": false
-    },
-    "credit": {
-      "author": "Google (Noto Emoji)",
-      "license": "Apache-2.0",
-      "sourceUrl": "https://github.com/googlefonts/noto-emoji",
-      "title": "emoji_u1fa83.svg"
     }
   }
 ]

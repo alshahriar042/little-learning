@@ -182,6 +182,8 @@ const items: any[] = readJson(path.join(contentDir, "items.json"));
 let order = Math.max(...sections.map((s) => s.order));
 for (const ns of NEW_SECTIONS) if (!sections.some((s) => s.id === ns.id)) sections.push({ ...ns, order: ++order });
 
+const revert = new Set((process.env.REVERT ?? "").split(",").filter(Boolean)); // re-create these as emoji cards (when no good photo exists)
+for (const id of revert) { const k = items.findIndex((i) => i.id === id); if (k >= 0) items.splice(k, 1); }
 const have = new Set(items.map((i) => i.id));
 const haveEn = new Set(items.map((i) => `${i.sectionId}/${i.en.toLowerCase()}`));
 let added = 0;
