@@ -71,3 +71,14 @@ test("OFFLINE: download a section, go offline, reload and still browse", async (
   await expect(page.getByText("(কফি)")).toBeVisible();
   await context.setOffline(false);
 });
+
+test("flashcards: the picture is visible on every card, also when switching quickly between cached cards", async ({ page }) => {
+  await page.goto("/m/picture-words/drinks");
+  await page.getByRole("button", { name: /Water/ }).first().click();
+  const visible = () => page.evaluate(() => { const i = document.querySelector<HTMLImageElement>("main img"); return !!i && i.complete && i.naturalWidth > 0 && getComputedStyle(i).opacity === "1"; });
+  await expect.poll(visible).toBe(true);
+  for (let n = 0; n < 6; n++) await page.getByRole("button", { name: /Next|পরের/ }).click();
+  await expect.poll(visible).toBe(true);
+  for (let n = 0; n < 6; n++) await page.getByRole("button", { name: /Previous|আগের/ }).click(); // all six were loaded a moment ago, i.e. served from cache
+  await expect.poll(visible).toBe(true);
+});

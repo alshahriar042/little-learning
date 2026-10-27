@@ -50,7 +50,7 @@ async function main() {
     for (const size of SIZES) {
       const out = path.join(devAssets, "img", String(size), it.image.file);
       if (!fs.existsSync(out) || fs.statSync(out).mtimeMs < fs.statSync(src).mtimeMs) {
-        await sharp(src).resize({ width: size, height: size, fit: "inside", withoutEnlargement: true }).webp({ quality: 80, alphaQuality: 90 }).toFile(out);
+        await sharp(src).resize({ width: size, height: size, fit: "inside", withoutEnlargement: true }).webp({ quality: 74, alphaQuality: 90, effort: 6, smartSubsample: true }).toFile(out);
         made++;
       }
       const buf = fs.readFileSync(out);

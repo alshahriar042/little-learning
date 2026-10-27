@@ -20,12 +20,12 @@ interface Props {
 export function Img({ src, w, h, alt, color = "#e5e7eb", priority, className = "", fit = "cover", fallback }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(!!priority);
-  const [loaded, setLoaded] = useState(false);
-  const [failed, setFailed] = useState(false);
-
-  useEffect(() => {
-    setFailed(false); setLoaded(false);
-  }, [src]);
+  // state is tied to the src it belongs to, so a cached image that loads instantly (before any effect could run)
+  // can never be overwritten by a late "reset" and left invisible
+  const [loadedSrc, setLoadedSrc] = useState<string | null>(null);
+  const [failedSrc, setFailedSrc] = useState<string | null>(null);
+  const loaded = loadedSrc === src;
+  const failed = failedSrc === src;
 
   useEffect(() => {
     if (visible || !ref.current) return;
@@ -41,10 +41,11 @@ export function Img({ src, w, h, alt, color = "#e5e7eb", priority, className = "
         <div className="absolute inset-0 flex items-center justify-center text-[min(28vw,7rem)] leading-none" aria-label={alt} role="img">{fallback}</div>
       ) : visible ? (
         <img
-          src={src} width={w} height={h} alt={alt} decoding="async"
+          key={src} src={src} width={w} height={h} alt={alt} decoding="async"
           crossOrigin={isCrossOrigin() ? "anonymous" : undefined}
           {...(priority ? { fetchPriority: "high" as const } : { loading: "lazy" as const })}
-          onLoad={() => setLoaded(true)} onError={() => setFailed(true)}
+          onLoad={() => setLoadedSrc(src)} onError={() => setFailedSrc(src)}
+          ref={(el) => { if (el?.complete && el.naturalWidth > 0) setLoadedSrc(src); }}
           className={`absolute inset-0 h-full w-full ${fit === "cover" ? "object-cover" : "object-contain"} transition-opacity duration-300 ${loaded ? "opacity-100" : "opacity-0"}`}
           draggable={false}
         />
