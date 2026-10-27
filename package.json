@@ -1,0 +1,24 @@
+{
+  "name": "little-learners-bd",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "workspaces": [
+    "app"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w app",
+    "build": "npm run build -w app",
+    "preview": "npm run preview -w app",
+    "test": "npm test -w app",
+    "test:e2e": "npm run test:e2e -w app",
+    "assets": "tsx scripts/prepare-assets.ts",
+    "assets:upload": "tsx scripts/prepare-assets.ts --upload",
+    "icons": "tsx scripts/generate-icons.ts"
+  },
+  "devDependencies": {
+    "mupdf": "^1.28.1",
+    "sharp": "^0.34.0",
+    "tsx": "^4.19.0"
+  }
+}

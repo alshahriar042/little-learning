@@ -1,0 +1,97 @@
+You are building "Little Learners BD" — a bilingual (Bangla + English) early-learning PLATFORM for babies/toddlers (ages 1–5) and their parents, delivered as an interactive, offline-first Progressive Web App.
+
+##### AUTONOMY RULES (READ FIRST — I will be away) #####
+- I will NOT be available to answer questions. Never stop to ask. Make sensible decisions, record each in DECISIONS.md, and keep going until EVERYTHING below is finished.
+- Work milestone by milestone. After each milestone: build, run tests, fix failures, then `git commit` with a clear message. Never leave the repo in a broken state.
+- Do not stop until all acceptance criteria in section 11 pass. If something external is impossible (e.g., no Cloudflare credentials), implement everything up to that point, document the manual step in README.md under "Manual steps for the owner", and continue.
+- Never fake results: run the real commands (build, tests, Lighthouse, Playwright offline test) and fix real failures. Final message must be an honest report (what works, what was skipped and why, how to run it).
+- Do not install heavy/unneeded dependencies; keep the app small and fast.
+
+##### PROJECT INPUT #####
+The folder `./incoming/` contains the real content: `sections.json`, `items.json`, and `images/*.webp` (transparent cut-outs, max 960px; items with `image: null` use their emoji as the picture). Use it as the source of truth for the Picture Words module. If it is missing, generate 12 mock emoji-only items and note it in DECISIONS.md.
+
+====================================================
+## 1. PRODUCT
+====================================================
+Little Learners BD is NOT just a picture book. The picture-word book is the FIRST module; many more will be added later (poems/ছড়া, alphabet/বর্ণমালা, numbers/সংখ্যা, colors, shapes, stories, songs, drawing, routines). Architecture, naming and navigation must be module-based and content-driven, with no "picture book" assumptions in the shell. Brand name lives in one config constant.
+- Calm, colorful, safe: no ads, no tracking, no login, no external links reachable by the child. Min 64px touch targets, no tiny text.
+- Works fully OFFLINE on mobile after first load / after the parent downloads a module. Installable, full-screen, portrait-first; usable on tablet/desktop.
+- Home = grid of LEARNING MODULES. Adding a module = new folder under modules/ + content JSON (+ R2 assets) + one registry line; no changes to shell, caching, settings or parent corner.
+
+====================================================
+## 2. TECH STACK
+====================================================
+Vite + React + TypeScript, React Router, Zustand, Tailwind CSS, Framer Motion. PWA via vite-plugin-pwa (Workbox) with an in-app "New version available" prompt. IndexedDB (idb) for progress/settings; Cache Storage for images/audio. Hosting: Cloudflare Pages (app shell); images/audio on a Cloudflare R2 bucket via custom domain (env VITE_ASSET_BASE_URL) — provide wrangler config, `_headers`, `_redirects`. Self-host fonts (Noto Sans Bengali + a rounded Latin font such as Baloo 2/Nunito) so Bengali renders offline; use lang="bn" on Bengali text.
+
+====================================================
+## 3. MODULE SYSTEM
+====================================================
+- `modules/registry.ts`: { id, titleEn, titleBn, icon, color, route, status: "ready"|"coming-soon", minAge, component (lazy), contentManifest, assetPrefix, offlinePackSize }.
+- Shared services used by EVERY module: speech/audio player (TTS + recorded audio from R2), asset loader with Cache Storage, offline pack downloader (per module and per section), progress & rewards store (IndexedDB, namespaced by module), settings, parental gate, credits registry, i18n (bn/en UI strings), local-only event bus (no analytics).
+- Reusable UI kit: BigTile, FlashCard, ProgressRing, StarBurst, Confetti, AudioButton, PageSwipe, GameShell (generic question → options → feedback engine so new quiz games are just data).
+- Routes: `/`, `/m/picture-words`, `/m/picture-words/:sectionId`, `/m/picture-words/games`, `/m/poems`, `/parent`.
+- Modules: (1) "Picture Words / ছবিতে শব্দ" READY (12 sections from incoming/sections.json); (2) "Poems / ছড়া" COMING SOON placeholder with full structure (schema { id, titleBn, titleEn, lines:[{bn,en?,startMs,endMs}], audioKey, illustrationKey }, list → player with line highlight, 2 sample poems in text only); (3) "Alphabet / বর্ণমালা" and "Numbers / সংখ্যা" COMING SOON placeholders. Coming-soon tiles are greyed with a ribbon and open a friendly screen.
+- Content versioned per module (`content/<moduleId>/manifest.json`, version + file list) so content updates without an app release; parent corner shows "New content available" and updates that module's offline pack.
+
+====================================================
+## 4. CONTENT & ASSET PIPELINE
+====================================================
+- Zod schemas for all JSON. Item shape: { id, sectionId, en, bnPron, bnMeaning, emoji, image:{file,w,h,hasCutout}|null, credit|null, audio? }. Display example: "TIGER (টাইগার) বাঘ".
+- Image URLs: `${VITE_ASSET_BASE_URL}/picture-words/img/{480|960}/{file}`. For local dev/preview, serve from `public/dev-assets/` automatically when VITE_ASSET_BASE_URL is empty, so the app works with no R2.
+- `scripts/prepare-assets.ts`: from `incoming/images` produce 480px and 960px WebP (sharp, keep alpha), write a hashed manifest, and upload to R2 (S3 API or `wrangler r2 object put`, Cache-Control `public, max-age=31536000, immutable`) — upload step is skipped with a clear message if credentials are absent. Also copy the generated files into `public/dev-assets/`.
+
+====================================================
+## 5. FEATURES
+====================================================
+1. Home: big module tiles (icon + Bangla + English), progress rings, parent-corner button.
+2. Module → Section tiles with progress. Section → grid of cut-out cards (picture large, name under it). Tap → Flashcard.
+3. Flashcard: huge cut-out with soft shadow, English word (colored, bold), Bengali pronunciation in parentheses, Bengali meaning large. Swipe + arrows, Auto-play mode, tap picture = bounce + speak.
+4. Speech: Web Speech API for en-US and bn-BD/bn-IN; detect voices; fall back to recorded audio from R2 if `audio.*` exists; parent setting EN / BN / both and speed. Recorded human audio can be dropped in later with no code change.
+5. Games on the shared GameShell: "Find it!" (voice says word, tap the picture), "Match" (memory flip, difficulty = pairs), "Which word?" (picture → choose word). Positive-only feedback (stars, confetti; wrong answer = gentle shake + "try again"). Games use sections the parent enabled.
+6. Rewards: stars per module, stickers when a section is completed.
+7. Parent corner behind a parental gate (press-and-hold 3s or simple arithmetic): language mode, sound, speed; "Download for offline" per module AND per section with progress + size estimate, "Download everything", "Remove downloads", storage usage (navigator.storage.estimate), navigator.storage.persist(); progress overview/reset; content updates; About, Privacy note; Credits page listing every photo's author/license/source from the content JSON (REQUIRED — many photos are CC BY / CC BY-SA from Wikimedia Commons).
+
+====================================================
+## 6. OFFLINE & CACHING (most important)
+====================================================
+- Precache app shell (JS, CSS, fonts, icons, manifest, registry, small content JSON).
+- R2 images/audio: Workbox CacheFirst, per-module caches (e.g. `pw-images-v1`), cacheableResponse statuses 0 and 200 (document the R2 CORS rule `Access-Control-Allow-Origin: *`), ExpirationPlugin generous (maxEntries ~2000, no short maxAge). 480px in grids, 960px in flashcards.
+- "Download for offline" fetches all assets of a module/section (concurrency 6, retry with backoff), `cache.put`s them, shows progress, is resumable.
+- First run loads the first section quickly (priority hints, lazy loading, dominant-color placeholders); rest lazily.
+- Offline UX: small "Offline mode" chip; not-yet-downloaded items show their emoji instead of broken images; never show browser error pages (offline fallback route).
+- SW updates download in background; "Update" toast; never break cached content.
+- iOS Safari PWA: storage eviction handling (re-download prompt), manual "Add to Home Screen" instructions, audio unlock on first tap, viewport-fit=cover, safe-area insets, apple-touch-icon, splash images.
+
+====================================================
+## 7. PWA
+====================================================
+`manifest.webmanifest`: name "Little Learners BD", short_name "Little Learners", id, start_url "/", scope, display "standalone", orientation "portrait", theme/background colors, maskable + "any" icons 192/512, categories ["education","kids"], shortcuts (Picture Words, Games). Generate icons from an original SVG (friendly book/leaf mark, not a copy of any brand or character) via a script. Lighthouse mobile ≥ 90 for PWA, Performance, Accessibility.
+
+====================================================
+## 8. QUALITY, ACCESSIBILITY, PRIVACY
+====================================================
+Responsive 360px → tablets; safe areas; respect prefers-reduced-motion; good contrast; aria-labels on icon buttons; no text baked into images. Route- and module-level code splitting; explicit image width/height; decoding="async"; IntersectionObserver lazy loading; initial JS < 200KB gzip. No analytics, no third-party scripts, no cookies; progress local only.
+
+====================================================
+## 9. TESTS
+====================================================
+Vitest for logic (game generation, caching helpers, registry, schemas). Playwright smoke tests incl. an OFFLINE scenario: load, download a section, go offline, reload, navigate, flashcards still render from cache. Run Lighthouse (mobile) and fix issues.
+
+====================================================
+## 10. DELIVERABLES
+====================================================
+Working app in `/app`, scripts in `/scripts`, `content/`, `.env.example`, `PLAN.md`, `DECISIONS.md`, and `README.md` covering: local dev; asset preparation/upload; creating the R2 bucket + custom domain + CORS; deploying to Cloudflare Pages; adding a section/item; adding a new module (step-by-step Poems example); "Manual steps for the owner".
+
+====================================================
+## 11. ACCEPTANCE CRITERIA (do not stop until all true)
+====================================================
+ [ ] `npm run build` succeeds with no TS errors; `npm test` and Playwright tests pass (including offline).
+ [ ] App runs locally with the real content from ./incoming (all 363 items, 12 sections), images render, Bengali text renders correctly.
+ [ ] Flashcards, speech, 3 games, rewards, parent gate, per-section/module download, credits page all work.
+ [ ] Installable PWA; works in airplane mode after download.
+ [ ] Lighthouse mobile ≥ 90 (PWA/Performance/Accessibility), or documented reasons.
+ [ ] Poems/Alphabet/Numbers placeholder modules present and added via the registry only.
+ [ ] README + DECISIONS + PLAN complete; all work committed in git.
+
+##### MILESTONES (commit after each) #####
+(a) scaffold + PWA shell + routing + registry + schemas → (b) Picture Words UI + flashcards + speech → (c) offline caching + downloads → (d) games + rewards → (e) parent corner + credits + settings → (f) asset pipeline + Cloudflare docs → (g) placeholder modules, tests, Lighthouse, final polish → FINAL REPORT.

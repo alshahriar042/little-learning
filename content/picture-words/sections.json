@@ -1,0 +1,86 @@
+[
+ {
+  "id": "animals",
+  "nameEn": "ANIMALS",
+  "nameBn": "জীবজন্তু",
+  "color": "#d94a4a",
+  "order": 1
+ },
+ {
+  "id": "birds",
+  "nameEn": "BIRDS",
+  "nameBn": "পাখি",
+  "color": "#e8892b",
+  "order": 2
+ },
+ {
+  "id": "fruits",
+  "nameEn": "FRUITS",
+  "nameBn": "ফল",
+  "color": "#3aa05a",
+  "order": 3
+ },
+ {
+  "id": "flowers-plants",
+  "nameEn": "FLOWERS & PLANTS",
+  "nameBn": "ফুল ও গাছ",
+  "color": "#2b86c5",
+  "order": 4
+ },
+ {
+  "id": "vegetables",
+  "nameEn": "VEGETABLES",
+  "nameBn": "সবজি",
+  "color": "#8e5bbf",
+  "order": 5
+ },
+ {
+  "id": "fish-sea",
+  "nameEn": "FISH & SEA",
+  "nameBn": "মাছ ও সমুদ্রের প্রাণী",
+  "color": "#d6478a",
+  "order": 6
+ },
+ {
+  "id": "vehicles",
+  "nameEn": "VEHICLES",
+  "nameBn": "যানবাহন",
+  "color": "#d94a4a",
+  "order": 7
+ },
+ {
+  "id": "human-body",
+  "nameEn": "HUMAN BODY",
+  "nameBn": "মানুষের শরীর",
+  "color": "#e8892b",
+  "order": 8
+ },
+ {
+  "id": "food",
+  "nameEn": "FOOD",
+  "nameBn": "খাবার",
+  "color": "#3aa05a",
+  "order": 9
+ },
+ {
+  "id": "drinks",
+  "nameEn": "DRINKS",
+  "nameBn": "পানীয়",
+  "color": "#2b86c5",
+  "order": 10
+ },
+ {
+  "id": "sports",
+  "nameEn": "SPORTS",
+  "nameBn": "খেলাধুলা",
+  "color": "#8e5bbf",
+  "order": 11
+ },
+ {
+  "id": "insects",
+  "nameEn": "INSECTS",
+  "nameBn": "পোকামাকড়",
+  "color": "#d6478a",
+  "order": 12
+ }
+]

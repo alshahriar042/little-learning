@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.local
+app/public/dev-assets
+app/public/content
+test-results
+playwright-report
+.lighthouse
+*.log
+.wrangler
