@@ -2,7 +2,7 @@
 
 A calm, ad-free, **offline-first** bilingual (Bangla + English) early-learning PWA for children aged 1–5.
 Module 1 is **Picture Words / ছবিতে শব্দ** (22 sections, 588 words) with flashcards, speech and three games.
-Poems, Alphabet and Numbers exist as "coming soon" modules. No ads, no tracking, no login, no cookies.
+Module 2 is **Poems / ছড়া** (35 Bangla children's poems read aloud line by line). Alphabet and Numbers exist as "coming soon" modules. No ads, no tracking, no login, no cookies.
 
 See [PLAN.md](PLAN.md) (architecture) and [DECISIONS.md](DECISIONS.md) (judgement calls).
 

@@ -77,3 +77,19 @@ Judgement calls made autonomously (newest context at the bottom of each topic).
     to Noto Emoji cards (`REVERT=... add-items.ts`). **Colours and Shapes stay emoji/graphic cards**: a photo cannot show "red" or
     "triangle" unambiguously. Remaining emoji cards: colours 11, shapes 7, plus 12 single items. Wikimedia text search is weak for
     generic words, so a few photos are "best available" rather than ideal; replace any by editing `PICK`/`MAP` and re-running.
+26. **Poems module is now `ready`** with 10 poems in `content/poems/poems.json`: 8 traditional Bengali nursery rhymes / public-domain
+    poems (Madan Mohan Tarkalankar d.1858, Rabindranath Tagore d.1941 – opening lines only) plus 1 original rhyme for this app. Nazrul
+    and other authors still in copyright were deliberately NOT used. Lines were typed from memory of the well-known versions (rhymes have
+    variants) and the English is a loose meaning-translation, so **a Bangla speaker should proof-read** `poems.json`. Reading uses the
+    device Bangla voice line by line (waits for each line to finish, so no fixed timings); recorded audio can be added later via `audioKey`.
+27. Poems grew to **27, tagged Class 1-5** (`grade` field, filter chips on the list). Poems from the official NCTB Class 1-5 textbooks are
+    still under copyright, so they were NOT copied. Instead: traditional rhymes, public-domain poems (D. L. Roy "ধনধান্যে", Tagore,
+    Madan Mohan Tarkalankar) and **17 originals written for this app** on typical Class 1-5 topics (counting, mother, colours, hygiene,
+    days, seasons, national symbols, trees, Language Day, time, honesty, village). Difficulty is graded by length and vocabulary only.
+    Originals were written by an AI and **must be proof-read by a Bangla teacher/parent** (rhyme, wording, suitability) before wide release.
+    Re-create with `node scripts/add-poems.mjs`.
+28. Poems: 35 total. Added "নোটন নোটন পায়রাগুলি" (text copied exactly from Jogindranath Sarkar's খুকুমণির ছড়া, 1899, via Bengali Wikisource),
+    "আমার পণ / সকালে উঠিয়া" (Madan Mohan Tarkalankar; opening 4 lines typed from memory, author confirmed by web search but the text
+    could not be checked online) and 7 more originals. "আতা গাছে তোতা পাখি" was corrected to the text collected in Tagore's
+    ছেলেভুলানো ছড়া. Other traditional rhymes (আগডুম বাগডুম, দোল দোল দোলুনি, হাট্টিমা টিম টিম, ঘুম পাড়ানি...) are the popular
+    modern variants from memory; the 1899 originals differ in places (e.g. "ঘোড়ার ডিম সাজে"). Variants are normal for folk rhymes.

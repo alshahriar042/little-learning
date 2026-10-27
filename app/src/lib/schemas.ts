@@ -29,6 +29,7 @@ export const PoemSchema = z.object({
   id: z.string(), titleBn: z.string(), titleEn: z.string(),
   lines: z.array(z.object({ bn: z.string(), en: z.string().optional(), startMs: z.number(), endMs: z.number() })),
   audioKey: z.string().nullable(), illustrationKey: z.string().nullable(),
+  emoji: z.string().optional(), source: z.string().optional(), grade: z.number().int().min(1).max(5).optional(),
 });
 export const PoemsSchema = z.array(PoemSchema);
 

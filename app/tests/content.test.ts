@@ -25,7 +25,7 @@ describe("content schemas", () => {
     expect(() => ItemsSchema.parse([{ id: "x" }])).toThrow();
   });
   it("parses poems and the generated manifests", () => {
-    expect(PoemsSchema.parse(read("content/poems/poems.json"))).toHaveLength(2);
+    expect(PoemsSchema.parse(read("content/poems/poems.json"))).toHaveLength(35);
     const gen = "app/public/content/picture-words";
     if (fs.existsSync(path.join(root, gen, "manifest.json"))) {
       const m = ManifestSchema.parse(read(`${gen}/manifest.json`));

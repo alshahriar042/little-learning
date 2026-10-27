@@ -14,7 +14,7 @@ export const modules: ModuleDef[] = [
   },
   {
     id: "poems", titleEn: "Poems", titleBn: "ছড়া", icon: "🎵", color: "#d6478a", route: "/m/poems",
-    status: "coming-soon", minAge: 1, component: lazy(() => import("./poems")), contentManifest: "/content/poems/manifest.json",
+    status: "ready", minAge: 1, component: lazy(() => import("./poems")), contentManifest: "/content/poems/manifest.json",
     assetPrefix: "poems", offlinePackSize: 0,
   },
   {

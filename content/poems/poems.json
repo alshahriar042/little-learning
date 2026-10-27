@@ -3,26 +3,1386 @@
     "id": "chand-mama",
     "titleBn": "আয় আয় চাঁদ মামা",
     "titleEn": "Come, Uncle Moon",
+    "emoji": "🌙",
+    "source": "Traditional Bengali nursery rhyme (ঐতিহ্যবাহী ছড়া)",
     "audioKey": null,
     "illustrationKey": null,
     "lines": [
-      { "bn": "আয় আয় চাঁদ মামা", "en": "Come, come, Uncle Moon", "startMs": 0, "endMs": 3000 },
-      { "bn": "টিপ দিয়ে যা", "en": "Put a dot on my brow", "startMs": 3000, "endMs": 6000 },
-      { "bn": "চাঁদের কপালে চাঁদ", "en": "A moon on the moon's own brow", "startMs": 6000, "endMs": 9000 },
-      { "bn": "টিপ দিয়ে যা", "en": "Put a dot on my brow", "startMs": 9000, "endMs": 12000 }
-    ]
+      {
+        "bn": "আয় আয় চাঁদ মামা, টিপ দিয়ে যা",
+        "en": "Come, come, Uncle Moon, put a dot on my brow",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "চাঁদের কপালে চাঁদ টিপ দিয়ে যা",
+        "en": "Moon, put a moon-dot on the moon's own brow",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "মাছ কুটলে মুড়ো দেব, ধান ভানলে কুঁড়ো দেব",
+        "en": "If you cut fish, I'll give you the head; if you pound rice, the bran",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "কালো গরুর দুধ দেব, দুধ খাওয়ার বাটি দেব",
+        "en": "I'll give black-cow milk and a bowl to drink it from",
+        "startMs": 12000,
+        "endMs": 16000
+      },
+      {
+        "bn": "চাঁদের কপালে চাঁদ টিপ দিয়ে যা",
+        "en": "Moon, put a moon-dot on the moon's own brow",
+        "startMs": 16000,
+        "endMs": 20000
+      }
+    ],
+    "grade": 1
+  },
+  {
+    "id": "ghum-parani",
+    "titleBn": "ঘুম পাড়ানি মাসি-পিসি",
+    "titleEn": "Lullaby Aunties",
+    "emoji": "😴",
+    "source": "Traditional Bengali lullaby (ঐতিহ্যবাহী ঘুমপাড়ানি ছড়া)",
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "ঘুম পাড়ানি মাসি-পিসি মোদের বাড়ি এসো",
+        "en": "Lullaby aunties, come to our house",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "খাট নেই পালঙ্ক নেই খোকার চোখে বসো",
+        "en": "There's no bed or couch, so sit upon baby's eyes",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "বাটা ভরা পান দেব, গাল ভরে খেয়ো",
+        "en": "I'll give a tray of betel leaf, eat to your heart's content",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "খোকার চোখে ঘুম নেই, ঘুম দিয়ে যেয়ো",
+        "en": "Baby has no sleep in his eyes, leave some sleep behind",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ],
+    "grade": 1
+  },
+  {
+    "id": "ata-gache",
+    "titleBn": "আতা গাছে তোতা পাখি",
+    "titleEn": "The Parrot in the Custard-Apple Tree",
+    "emoji": "🦜",
+    "source": "Traditional, as collected in Rabindranath Tagore's ছেলেভুলানো ছড়া (public domain)",
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "আতা গাছে তোতা পাখি",
+        "en": "A parrot in the custard-apple tree",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "ডালিম গাছে মউ",
+        "en": "Honey in the pomegranate tree",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "কথা কও না কেন বউ",
+        "en": "Why don't you speak, little bride?",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "কথা কব কী ছলে",
+        "en": "How can I speak, with what excuse?",
+        "startMs": 12000,
+        "endMs": 16000
+      },
+      {
+        "bn": "কথা কইতে গা জ্বলে",
+        "en": "Speaking makes my body burn",
+        "startMs": 16000,
+        "endMs": 20000
+      }
+    ],
+    "grade": 1
+  },
+  {
+    "id": "hattima-tim-tim",
+    "titleBn": "হাট্টিমা টিম টিম",
+    "titleEn": "Hattima Tim Tim",
+    "emoji": "🥚",
+    "source": "Traditional Bengali rhyme (ঐতিহ্যবাহী ছড়া)",
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "হাট্টিমা টিম টিম",
+        "en": "Hattima tim tim",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "তারা মাঠে পাড়ে ডিম",
+        "en": "They lay eggs in the field",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "তাদের খাড়া দুটো শিং",
+        "en": "They have two upright horns",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "তারা হাট্টিমা টিম টিম",
+        "en": "They are hattima tim tim",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ],
+    "grade": 1
   },
   {
     "id": "tara-jhilmil",
     "titleBn": "তারা ঝিলমিল",
     "titleEn": "Twinkling Stars",
+    "emoji": "⭐",
+    "source": "Original for this app",
     "audioKey": null,
     "illustrationKey": null,
     "lines": [
-      { "bn": "তারা ঝিলমিল করে", "en": "The stars twinkle bright", "startMs": 0, "endMs": 3000 },
-      { "bn": "আকাশের গায়ে", "en": "Upon the sky", "startMs": 3000, "endMs": 6000 },
-      { "bn": "ঘুমপাড়ানি মাসি-পিসি", "en": "Lullaby aunties come", "startMs": 6000, "endMs": 9000 },
-      { "bn": "আমার খোকার চোখে", "en": "To my little one's eyes", "startMs": 9000, "endMs": 12000 }
+      {
+        "bn": "তারা ঝিলমিল করে",
+        "en": "The stars twinkle bright",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "আকাশের গায়ে",
+        "en": "Upon the sky",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "ঘুমপাড়ানি মাসি-পিসি",
+        "en": "Lullaby aunties come",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "আমার খোকার চোখে",
+        "en": "To my little one's eyes",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ],
+    "grade": 1
+  },
+  {
+    "id": "count-one-ten",
+    "titleBn": "এক দুই তিন",
+    "titleEn": "One Two Three",
+    "emoji": "🔢",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 1,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "এক দুই তিন চার, গাছে পাখি চার",
+        "en": "One, two, three, four - four birds in the tree",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "পাঁচ ছয় সাত আট, নদীর ধারে হাট",
+        "en": "Five, six, seven, eight - a market by the river",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "নয় দশ হল শেষ, গুনতে পারি বেশ",
+        "en": "Nine, ten, the end - I can count so well",
+        "startMs": 8000,
+        "endMs": 12000
+      }
+    ]
+  },
+  {
+    "id": "ma-amar",
+    "titleBn": "মা আমার",
+    "titleEn": "My Mother",
+    "emoji": "💛",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 1,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "মা আমার সোনামণি",
+        "en": "My mother is my golden jewel",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "মায়ের মুখে হাসিখানি",
+        "en": "A smile on my mother's face",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "মা যে আমার আলো",
+        "en": "My mother is my light",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "মাকে বাসি ভালো",
+        "en": "I love my mother",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "pakhi-rang",
+    "titleBn": "পাখির রং",
+    "titleEn": "Colours of Birds",
+    "emoji": "🦜",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 1,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "টিয়া পাখি সবুজ রঙের",
+        "en": "The parrot is green",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "দোয়েল পাখি সাদা-কালো",
+        "en": "The magpie-robin is black and white",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "কোকিল ডাকে কুহু কুহু",
+        "en": "The koel calls kuhu-kuhu",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "সবাইকে লাগে ভালো",
+        "en": "I like them all",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "dol-dolooni",
+    "titleBn": "দোল দোল দোলুনি",
+    "titleEn": "Rock, Rock, Cradle",
+    "emoji": "🪁",
+    "source": "Traditional Bengali rhyme (ঐতিহ্যবাহী ছড়া)",
+    "grade": 1,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "দোল দোল দোলুনি, রাঙা মাথায় চিরুনি",
+        "en": "Rock, rock, cradle, a comb in her rosy hair",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "বর আসবে এখুনি, নিয়ে যাবে তখুনি",
+        "en": "The groom will come soon and take her away",
+        "startMs": 4000,
+        "endMs": 8000
+      }
+    ]
+  },
+  {
+    "id": "rong",
+    "titleBn": "রঙের ছড়া",
+    "titleEn": "Rhyme of Colours",
+    "emoji": "🎨",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 1,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "আকাশ নীল, মেঘ সাদা",
+        "en": "The sky is blue, the clouds are white",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "পাতা সবুজ, জবা লাল",
+        "en": "The leaf is green, the hibiscus is red",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "গাঁদা হলুদ, মাটি কালো",
+        "en": "The marigold is yellow, the soil is dark",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "রঙিন এ দুনিয়া ভালো",
+        "en": "This colourful world is lovely",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "chhoto-pakhi",
+    "titleBn": "ছোট্ট পাখি",
+    "titleEn": "Little Bird",
+    "emoji": "🐤",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 1,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "ছোট্ট পাখি ডাকে ভোরে",
+        "en": "A little bird calls at dawn",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "ঘুম ভাঙে সবার ঘরে",
+        "en": "Sleep ends in every home",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "আমিও উঠি তাড়াতাড়ি",
+        "en": "I get up quickly too",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "মুখ ধুই, যাই স্কুলবাড়ি",
+        "en": "I wash my face and go to school",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "biral-chhana",
+    "titleBn": "বিড়াল ছানা",
+    "titleEn": "Kitten",
+    "emoji": "🐱",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 1,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "মিউ মিউ বিড়াল ছানা",
+        "en": "Meow meow, little kitten",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "দুধ খেতে করে না মানা",
+        "en": "She never says no to milk",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "লেজটি নাড়ে দুলে দুলে",
+        "en": "She swishes her tail, swaying",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "ঘুমিয়ে পড়ে মায়ের কোলে",
+        "en": "And falls asleep in her mother's lap",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "skul-jai",
+    "titleBn": "স্কুলে যাই",
+    "titleEn": "I Go to School",
+    "emoji": "🏫",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 1,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "সকাল হলে স্কুলে যাই",
+        "en": "In the morning I go to school",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "নতুন নতুন বন্ধু পাই",
+        "en": "I find new friends",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "শিক্ষক শেখান যত্ন করে",
+        "en": "The teacher teaches with care",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "শিখি আমি মনটি ভরে",
+        "en": "I learn with a full heart",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "khoka-ghumalo",
+    "titleBn": "খোকা ঘুমালো",
+    "titleEn": "Baby Is Asleep",
+    "emoji": "👶",
+    "source": "Traditional Bengali lullaby (ঐতিহ্যবাহী ঘুমপাড়ানি ছড়া)",
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "খোকা ঘুমালো, পাড়া জুড়ালো",
+        "en": "Baby is asleep, the whole village is calm",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "বর্গী এলো দেশে",
+        "en": "The raiders have come to the land",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "বুলবুলিতে ধান খেয়েছে",
+        "en": "The bulbuls have eaten the rice",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "খাজনা দেব কিসে",
+        "en": "How will we pay the tax?",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ],
+    "grade": 2
+  },
+  {
+    "id": "brishti-pore",
+    "titleBn": "বৃষ্টি পড়ে টাপুর টুপুর",
+    "titleEn": "Rain Falls Tapur Tupur",
+    "emoji": "🌧️",
+    "source": "Traditional Bengali rhyme (ঐতিহ্যবাহী ছড়া)",
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "বৃষ্টি পড়ে টাপুর টুপুর, নদে এল বান",
+        "en": "Rain falls tapur-tupur, the river is in flood",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "শিব ঠাকুরের বিয়ে হল, তিন কন্যা দান",
+        "en": "Lord Shiva was wed, three daughters given",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "এক কন্যা রাঁধেন বাড়েন, এক কন্যা খান",
+        "en": "One daughter cooks and serves, one daughter eats",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "এক কন্যা না খেয়ে বাপের বাড়ি যান",
+        "en": "One goes to her father's house without eating",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ],
+    "grade": 2
+  },
+  {
+    "id": "saf-habit",
+    "titleBn": "পরিষ্কার থাকি",
+    "titleEn": "Staying Clean",
+    "emoji": "🪥",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 2,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "সকালে উঠে হাত-মুখ ধুই",
+        "en": "I wake up and wash my hands and face",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "দাঁত মেজে রোজ পরিষ্কার হই",
+        "en": "I brush my teeth and get clean every day",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "খাওয়ার আগে হাত ধুয়ে নিই",
+        "en": "I wash my hands before I eat",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "তাই তো আমি সুস্থ থাকি, ভাই",
+        "en": "That is why I stay healthy, brother",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "agdum-bagdum",
+    "titleBn": "আগডুম বাগডুম",
+    "titleEn": "Agdum Bagdum",
+    "emoji": "🥁",
+    "source": "Traditional Bengali rhyme (ঐতিহ্যবাহী ছড়া)",
+    "grade": 2,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "আগডুম বাগডুম ঘোড়াডুম সাজে",
+        "en": "Agdum bagdum, the horses are dressed",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "ঢাক মৃদঙ্গ ঝাঁঝর বাজে",
+        "en": "Drums and cymbals are playing",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "বাজতে বাজতে চলল ঢুলি",
+        "en": "Playing and playing, the drummer goes",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "ঢুলি গেল কমলাপুলি",
+        "en": "The drummer went to Komolapuli",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "saptaha",
+    "titleBn": "সপ্তাহের দিন",
+    "titleEn": "Days of the Week",
+    "emoji": "📅",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 2,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "রবি সোম মঙ্গল বুধ বৃহস্পতি",
+        "en": "Sunday, Monday, Tuesday, Wednesday, Thursday",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "পাঁচ দিন স্কুলে যাই, ভালো থাকে মতি",
+        "en": "Five days I go to school, my mind stays bright",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "শুক্র আর শনিবার ছুটির আনন্দ",
+        "en": "Friday and Saturday are the joy of holiday",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "খেলাধুলা গল্পেতে মেতে থাকি ছন্দ",
+        "en": "Playing and storytelling, I am full of rhythm",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "nouka",
+    "titleBn": "নদীর বুকে নৌকা",
+    "titleEn": "Boat on the River",
+    "emoji": "⛵",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 2,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "নদীর বুকে নৌকা চলে",
+        "en": "A boat moves on the river's chest",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "দোল খায় ঢেউয়ের তালে",
+        "en": "Rocking to the rhythm of the waves",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "মাঝি ভাই গান ধরে",
+        "en": "The boatman starts to sing",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "পাল ওড়ে হাওয়ার জোরে",
+        "en": "The sail flies in the strong wind",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "jatiyo-pakhi-ful",
+    "titleBn": "আমার দেশের পাখি-ফুল",
+    "titleEn": "Bird and Flower of My Land",
+    "emoji": "🇧🇩",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 2,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "দোয়েল আমাদের জাতীয় পাখি",
+        "en": "The magpie-robin is our national bird",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "শাপলা ফুল ভাসে জলে",
+        "en": "The water lily floats on the water",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "কাঁঠাল ফল, ইলিশ মাছ",
+        "en": "The jackfruit, the hilsa fish",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "সবই আমার দেশের কোলে",
+        "en": "All are in my country's lap",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "noton-payra",
+    "titleBn": "নোটন নোটন পায়রাগুলি",
+    "titleEn": "The Fluffy Pigeons",
+    "emoji": "🕊️",
+    "source": "Jogindranath Sarkar, খুকুমণির ছড়া (1899), public domain - text as printed",
+    "grade": 2,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "নোটন নোটন পায়রাগুলি ঝোটন বেঁধেছে",
+        "en": "The crested pigeons have tied their topknots",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "ও পারেতে দুটি মেয়ে নাইতে নেমেছে",
+        "en": "Over there two girls have gone down to bathe",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "সরু সরু চুলগুলি ঝাড়তে লেগেছে",
+        "en": "They have started to shake out their fine hair",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "কে দেখেছে, কে দেখেছে? দাদা দেখেছে",
+        "en": "Who saw, who saw? Elder brother saw",
+        "startMs": 12000,
+        "endMs": 16000
+      },
+      {
+        "bn": "দাদার হাতে বাজুবন্ধ ছুড়ে মেরেছে",
+        "en": "She threw the armlet in brother's hand at him",
+        "startMs": 16000,
+        "endMs": 20000
+      },
+      {
+        "bn": "উহুহু, বড্ড লেগেছে!",
+        "en": "Ouch, that hurt a lot!",
+        "startMs": 20000,
+        "endMs": 24000
+      }
+    ]
+  },
+  {
+    "id": "dadur-bari",
+    "titleBn": "দাদুর বাড়ি",
+    "titleEn": "Grandpa's House",
+    "emoji": "🏠",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 2,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "চলো যাই দাদুর বাড়ি",
+        "en": "Let us go to Grandpa's house",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "সঙ্গে নিয়ে মিষ্টি হাঁড়ি",
+        "en": "Taking a pot of sweets along",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "দাদু বলেন গল্প কত",
+        "en": "Grandpa tells so many stories",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "শুনে আমি খুশি যত",
+        "en": "The more I hear, the happier I am",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "jonaki",
+    "titleBn": "জোনাকি",
+    "titleEn": "Fireflies",
+    "emoji": "✨",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 2,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "সন্ধ্যা হলে বনের ধারে",
+        "en": "At dusk by the edge of the forest",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "জোনাকিরা আলো ছড়ায়",
+        "en": "Fireflies spread their light",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "টিমটিমিয়ে জ্বলে-নেভে",
+        "en": "Twinkling on and off",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "তারার মতো ঘুরে বেড়ায়",
+        "en": "They wander like little stars",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "pakhi-sob",
+    "titleBn": "পাখি সব করে রব",
+    "titleEn": "The Birds Sing",
+    "emoji": "🐦",
+    "source": "Madan Mohan Tarkalankar (1817–1858), public domain",
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "পাখি সব করে রব, রাতি পোহাইল",
+        "en": "The birds all sing, the night has ended",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "কাননে কুসুমকলি সকলি ফুটিল",
+        "en": "In the garden, all the flower buds have bloomed",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "রাখাল গরুর পাল লয়ে যায় মাঠে",
+        "en": "The cowherd takes his cattle to the field",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "শিশুগণ দেয় মন নিজ নিজ পাঠে",
+        "en": "The children turn their minds to their lessons",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "taal-gach",
+    "titleBn": "তালগাছ",
+    "titleEn": "The Palm Tree",
+    "emoji": "🌴",
+    "source": "Rabindranath Tagore (1861–1941), public domain (opening lines)",
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "তালগাছ এক পায়ে দাঁড়িয়ে",
+        "en": "The palm tree stands on one leg",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "সব গাছ ছাড়িয়ে",
+        "en": "Taller than all the other trees",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "উঁকি মারে আকাশে",
+        "en": "Peeking into the sky",
+        "startMs": 8000,
+        "endMs": 12000
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "gach-lagai",
+    "titleBn": "গাছ লাগাই",
+    "titleEn": "Let Us Plant Trees",
+    "emoji": "🌳",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 3,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "এসো সবাই গাছ লাগাই",
+        "en": "Come, everyone, let us plant trees",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "ছায়া আর ফল পাই",
+        "en": "We get shade and fruit",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "গাছ দেয় শীতল হাওয়া",
+        "en": "Trees give cool breeze",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "গাছেই পাখির গান গাওয়া",
+        "en": "Birds sing in the trees",
+        "startMs": 12000,
+        "endMs": 16000
+      },
+      {
+        "bn": "গাছ বাঁচলে প্রাণ বাঁচে",
+        "en": "When trees live, life lives",
+        "startMs": 16000,
+        "endMs": 20000
+      },
+      {
+        "bn": "সবুজ থাকুক সবার কাছে",
+        "en": "May green stay near everyone",
+        "startMs": 20000,
+        "endMs": 24000
+      }
+    ]
+  },
+  {
+    "id": "bhasha-dibos",
+    "titleBn": "আমার ভাষা",
+    "titleEn": "My Language",
+    "emoji": "📖",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 3,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "বাংলা আমার মায়ের ভাষা",
+        "en": "Bangla is my mother's language",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "বাংলা মুখের গান",
+        "en": "Bangla is the song of my lips",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "এই ভাষাতেই কথা বলতে",
+        "en": "To speak in this language",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "ভাইয়েরা দিল প্রাণ",
+        "en": "Our brothers gave their lives",
+        "startMs": 12000,
+        "endMs": 16000
+      },
+      {
+        "bn": "একুশে ফেব্রুয়ারি এলে",
+        "en": "When the twenty-first of February comes",
+        "startMs": 16000,
+        "endMs": 20000
+      },
+      {
+        "bn": "শহিদ মিনারে যাই",
+        "en": "I go to the Shaheed Minar",
+        "startMs": 20000,
+        "endMs": 24000
+      },
+      {
+        "bn": "ফুল দিয়ে সেই বীরদের",
+        "en": "With flowers to those heroes",
+        "startMs": 24000,
+        "endMs": 28000
+      },
+      {
+        "bn": "শ্রদ্ধা জানাই ভাই",
+        "en": "I offer my respect, brother",
+        "startMs": 28000,
+        "endMs": 32000
+      }
+    ]
+  },
+  {
+    "id": "chhoy-ritu",
+    "titleBn": "ছয় ঋতু",
+    "titleEn": "Six Seasons",
+    "emoji": "🌦️",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 3,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "গ্রীষ্মে পাকে আম-কাঁঠাল",
+        "en": "In summer, mangoes and jackfruit ripen",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "বর্ষায় আসে বাদল-কাল",
+        "en": "In the monsoon, the rainy time comes",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "শরতে ফোটে কাশের ফুল",
+        "en": "In autumn, the kash flowers bloom",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "শিউলি ঝরে, গন্ধে মশগুল",
+        "en": "Shiuli flowers fall, full of fragrance",
+        "startMs": 12000,
+        "endMs": 16000
+      },
+      {
+        "bn": "হেমন্তে ধান সোনার মতো",
+        "en": "In late autumn, the rice is like gold",
+        "startMs": 16000,
+        "endMs": 20000
+      },
+      {
+        "bn": "শীতে পিঠা খাই যে কত",
+        "en": "In winter, I eat so many pithas",
+        "startMs": 20000,
+        "endMs": 24000
+      },
+      {
+        "bn": "বসন্তে ফোটে ফুলের হাসি",
+        "en": "In spring, flowers smile",
+        "startMs": 24000,
+        "endMs": 28000
+      },
+      {
+        "bn": "ছয় ঋতুকে ভালোবাসি",
+        "en": "I love all six seasons",
+        "startMs": 28000,
+        "endMs": 32000
+      }
+    ]
+  },
+  {
+    "id": "amar-pon",
+    "titleBn": "আমার পণ",
+    "titleEn": "My Promise",
+    "emoji": "🌅",
+    "source": "Madan Mohan Tarkalankar (1817-1858), public domain (opening lines)",
+    "grade": 3,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "সকালে উঠিয়া আমি মনে মনে বলি",
+        "en": "Waking up in the morning I say to myself",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "সারাদিন আমি যেন ভালো হয়ে চলি",
+        "en": "May I behave well all day long",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "আদেশ করেন যাহা মোর গুরুজনে",
+        "en": "Whatever my elders ask of me",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "আমি যেন সেই কাজ করি ভালো মনে",
+        "en": "May I do it with a good heart",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "chhoto-nodi",
+    "titleBn": "আমাদের ছোট নদী",
+    "titleEn": "Our Little River",
+    "emoji": "🏞️",
+    "source": "Rabindranath Tagore (1861–1941), public domain",
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "আমাদের ছোটো নদী চলে বাঁকে বাঁকে",
+        "en": "Our little river winds and bends",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "বৈশাখ মাসে তার হাঁটু জল থাকে",
+        "en": "In Boishakh it is only knee-deep",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "পার হয়ে যায় গোরু, পার হয় গাড়ি",
+        "en": "Cows cross over, carts cross over",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "দুই ধার উঁচু তার, ঢালু তার পাড়ি",
+        "en": "Both banks are high, the slopes are gentle",
+        "startMs": 12000,
+        "endMs": 16000
+      },
+      {
+        "bn": "চিক্‌চিক্‌ করে বালি, কোথা নাই কাদা",
+        "en": "The sand glitters, there is no mud anywhere",
+        "startMs": 16000,
+        "endMs": 20000
+      },
+      {
+        "bn": "একধারে কাশবন ফুলে ফুলে সাদা",
+        "en": "On one side the kash-grass is white with flowers",
+        "startMs": 20000,
+        "endMs": 24000
+      }
+    ],
+    "grade": 4
+  },
+  {
+    "id": "somoy",
+    "titleBn": "সময়ের মূল্য",
+    "titleEn": "The Value of Time",
+    "emoji": "⏰",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 4,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "সময় চলে নদীর মতো",
+        "en": "Time flows like a river",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "একবার গেলে আসে না",
+        "en": "Once gone, it never returns",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "যে কাজ আছে আজই করি",
+        "en": "The work that is due, I do today",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "কালকে ফেলে রাখি না",
+        "en": "I do not leave it for tomorrow",
+        "startMs": 12000,
+        "endMs": 16000
+      },
+      {
+        "bn": "পড়ার সময় পড়ে যাই",
+        "en": "At study time I study",
+        "startMs": 16000,
+        "endMs": 20000
+      },
+      {
+        "bn": "খেলার সময় খেলি",
+        "en": "At play time I play",
+        "startMs": 20000,
+        "endMs": 24000
+      },
+      {
+        "bn": "সময় মেনে চললে ভাই",
+        "en": "If we follow the clock, brother",
+        "startMs": 24000,
+        "endMs": 28000
+      },
+      {
+        "bn": "সফল হওয়া কঠিন নাই",
+        "en": "Success is not hard",
+        "startMs": 28000,
+        "endMs": 32000
+      }
+    ]
+  },
+  {
+    "id": "satya-katha",
+    "titleBn": "সত্য কথা",
+    "titleEn": "Speak the Truth",
+    "emoji": "🌟",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 4,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "সত্য কথা বলব আমি",
+        "en": "I will speak the truth",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "থাকব মিথ্যা থেকে দূরে",
+        "en": "I will stay far from lies",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "বড়কে দেব সম্মান, ছোটকে স্নেহ, ভালোবাসা",
+        "en": "I will respect elders, give love and care to little ones",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "মিলেমিশে চলব সুখে, এটাই আমার আশা",
+        "en": "Living together happily is my hope",
+        "startMs": 12000,
+        "endMs": 16000
+      }
+    ]
+  },
+  {
+    "id": "dhan",
+    "titleBn": "সোনালি ধান",
+    "titleEn": "Golden Rice",
+    "emoji": "🌾",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 4,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "সোনালি ধান মাঠে দোলে",
+        "en": "Golden rice sways in the field",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "কৃষক ভাইয়ের হাসি ফোটে",
+        "en": "The farmer's face smiles",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "কৃষকের ঘামে ধান ফলে",
+        "en": "The rice grows from the farmer's sweat",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "তাই তো আমরা ভাত খাই",
+        "en": "That is why we get to eat rice",
+        "startMs": 12000,
+        "endMs": 16000
+      },
+      {
+        "bn": "ভাত ফেলে না দিই কভু",
+        "en": "Never throw rice away",
+        "startMs": 16000,
+        "endMs": 20000
+      },
+      {
+        "bn": "কৃষককে মনে রাখি ভাই",
+        "en": "Remember the farmer, brother",
+        "startMs": 20000,
+        "endMs": 24000
+      }
+    ]
+  },
+  {
+    "id": "amar-gram",
+    "titleBn": "আমার গ্রাম",
+    "titleEn": "My Village",
+    "emoji": "🏡",
+    "source": "Original for this app (এই অ্যাপের জন্য লেখা)",
+    "grade": 5,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "আমার গ্রামটি ছবির মতো, নদীর ধারে ঘর",
+        "en": "My village is like a picture, houses by the river",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "সবুজ ধানের ক্ষেত পেরিয়ে আকাশ অনেক দূর",
+        "en": "Beyond the green rice fields the sky stretches far",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "সকাল হলে দোয়েল ডাকে, শিউলি ঝরে ঘাসে",
+        "en": "At dawn the magpie-robin calls, shiuli falls on the grass",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "সন্ধ্যা নামে ধীরে ধীরে, চাঁদ ওঠে আকাশে",
+        "en": "Evening settles slowly, the moon rises in the sky",
+        "startMs": 12000,
+        "endMs": 16000
+      },
+      {
+        "bn": "সহজ সরল মানুষ সবাই, মায়ায় ভরা মন",
+        "en": "Everyone is simple and kind, hearts full of affection",
+        "startMs": 16000,
+        "endMs": 20000
+      },
+      {
+        "bn": "গ্রামের মাটি আপন আমার, আপন এ জীবন",
+        "en": "The village soil is mine, and so is this life",
+        "startMs": 20000,
+        "endMs": 24000
+      }
+    ]
+  },
+  {
+    "id": "dhono-dhanne",
+    "titleBn": "ধনধান্যে পুষ্পে ভরা",
+    "titleEn": "Rich with Grain and Flowers",
+    "emoji": "🌾",
+    "source": "Dwijendralal Roy (1863-1913), public domain (first verse)",
+    "grade": 5,
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      {
+        "bn": "ধনধান্যে পুষ্পে ভরা আমাদের এই বসুন্ধরা",
+        "en": "Rich with grain and flowers is our earth",
+        "startMs": 0,
+        "endMs": 4000
+      },
+      {
+        "bn": "তাহার মাঝে আছে দেশ এক সকল দেশের সেরা",
+        "en": "Among it is one land, the best of all lands",
+        "startMs": 4000,
+        "endMs": 8000
+      },
+      {
+        "bn": "ও সে স্বপ্ন দিয়ে তৈরি সে দেশ স্মৃতি দিয়ে ঘেরা",
+        "en": "A land made of dreams and wrapped in memories",
+        "startMs": 8000,
+        "endMs": 12000
+      },
+      {
+        "bn": "এমন দেশটি কোথাও খুঁজে পাবে নাকো তুমি",
+        "en": "You will not find such a land anywhere",
+        "startMs": 12000,
+        "endMs": 16000
+      },
+      {
+        "bn": "সকল দেশের রানি সে যে আমার জন্মভূমি",
+        "en": "She is the queen of all lands, my motherland",
+        "startMs": 16000,
+        "endMs": 20000
+      }
     ]
   }
 ]

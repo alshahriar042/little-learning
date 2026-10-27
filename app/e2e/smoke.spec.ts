@@ -82,3 +82,19 @@ test("flashcards: the picture is visible on every card, also when switching quic
   for (let n = 0; n < 6; n++) await page.getByRole("button", { name: /Previous|আগের/ }).click(); // all six were loaded a moment ago, i.e. served from cache
   await expect.poll(visible).toBe(true);
 });
+
+test("poems: list shows the poems; a poem opens with its lines and can be played", async ({ page }) => {
+  await page.goto("/m/poems");
+  await expect(page.locator("a[href^='/m/poems/']")).toHaveCount(35);
+  await page.getByRole("button", { name: /Class 5|শ্রেণি 5/ }).click();
+  await expect(page.locator("a[href^='/m/poems/']")).toHaveCount(2);
+  await page.getByRole("button", { name: /^(All|সব)$/ }).click();
+  await expect(page.locator("a[href^='/m/poems/']")).toHaveCount(35);
+  await page.locator("a[href='/m/poems/ata-gache']").click();
+  await expect(page.getByRole("button", { name: /আতা গাছে তোতা পাখি/ })).toBeVisible();
+  await expect(page.getByRole("button", { name: /কথা কইতে গা জ্বলে/ })).toBeVisible();
+  await page.getByRole("button", { name: /Listen|শোনো/ }).click();
+  await expect(page.getByRole("button", { name: /Stop|থামাও/ })).toBeVisible();
+  await page.getByRole("button", { name: /Stop|থামাও/ }).click();
+  await expect(page.getByRole("button", { name: /Listen|শোনো/ })).toBeVisible();
+});
