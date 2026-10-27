@@ -1,0 +1,28 @@
+[
+  {
+    "id": "chand-mama",
+    "titleBn": "আয় আয় চাঁদ মামা",
+    "titleEn": "Come, Uncle Moon",
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      { "bn": "আয় আয় চাঁদ মামা", "en": "Come, come, Uncle Moon", "startMs": 0, "endMs": 3000 },
+      { "bn": "টিপ দিয়ে যা", "en": "Put a dot on my brow", "startMs": 3000, "endMs": 6000 },
+      { "bn": "চাঁদের কপালে চাঁদ", "en": "A moon on the moon's own brow", "startMs": 6000, "endMs": 9000 },
+      { "bn": "টিপ দিয়ে যা", "en": "Put a dot on my brow", "startMs": 9000, "endMs": 12000 }
+    ]
+  },
+  {
+    "id": "tara-jhilmil",
+    "titleBn": "তারা ঝিলমিল",
+    "titleEn": "Twinkling Stars",
+    "audioKey": null,
+    "illustrationKey": null,
+    "lines": [
+      { "bn": "তারা ঝিলমিল করে", "en": "The stars twinkle bright", "startMs": 0, "endMs": 3000 },
+      { "bn": "আকাশের গায়ে", "en": "Upon the sky", "startMs": 3000, "endMs": 6000 },
+      { "bn": "ঘুমপাড়ানি মাসি-পিসি", "en": "Lullaby aunties come", "startMs": 6000, "endMs": 9000 },
+      { "bn": "আমার খোকার চোখে", "en": "To my little one's eyes", "startMs": 9000, "endMs": 12000 }
+    ]
+  }
+]

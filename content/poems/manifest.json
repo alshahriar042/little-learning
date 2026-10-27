@@ -1,0 +1,1 @@
+{ "module": "poems", "version": "1", "files": ["poems.json"], "assetsFile": null, "packs": [{ "id": "all", "titleEn": "All poems", "titleBn": "সব ছড়া", "count": 2, "bytes": 0 }] }

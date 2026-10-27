@@ -1,0 +1,9 @@
+# Cloudflare Pages config (app shell). R2 bucket holds images/audio and is served from a custom domain.
+name = "little-learners-bd"
+pages_build_output_dir = "app/dist"
+compatibility_date = "2025-01-01"
+
+# Uncomment to bind the bucket to Pages Functions (not required: assets are fetched from the custom domain).
+# [[r2_buckets]]
+# binding = "ASSETS_BUCKET"
+# bucket_name = "little-learners-assets"
