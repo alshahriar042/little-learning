@@ -9,9 +9,9 @@ const read = (p: string) => JSON.parse(fs.readFileSync(path.join(root, p), "utf8
 describe("content schemas", () => {
   const sections = SectionsSchema.parse(read("content/picture-words/sections.json"));
   const items = ItemsSchema.parse(read("content/picture-words/items.json"));
-  it("has 12 sections and 363 items", () => {
-    expect(sections).toHaveLength(12);
-    expect(items).toHaveLength(363);
+  it("has 22 sections and 588 items", () => {
+    expect(sections).toHaveLength(22);
+    expect(items).toHaveLength(588);
   });
   it("every item belongs to a known section and has an image file on disk", () => {
     const ids = new Set(sections.map((s) => s.id));
@@ -30,8 +30,8 @@ describe("content schemas", () => {
     if (fs.existsSync(path.join(root, gen, "manifest.json"))) {
       const m = ManifestSchema.parse(read(`${gen}/manifest.json`));
       const a = AssetsSchema.parse(read(`${gen}/assets.json`));
-      expect(m.packs.reduce((n, p) => n + p.count, 0)).toBe(363);
-      expect(Object.keys(a.assets)).toHaveLength(726);
+      expect(m.packs.reduce((n, p) => n + p.count, 0)).toBe(588);
+      expect(Object.keys(a.assets)).toHaveLength(1176);
     }
   });
 });

@@ -1,86 +1,156 @@
 [
- {
-  "id": "animals",
-  "nameEn": "ANIMALS",
-  "nameBn": "জীবজন্তু",
-  "color": "#d94a4a",
-  "order": 1
- },
- {
-  "id": "birds",
-  "nameEn": "BIRDS",
-  "nameBn": "পাখি",
-  "color": "#e8892b",
-  "order": 2
- },
- {
-  "id": "fruits",
-  "nameEn": "FRUITS",
-  "nameBn": "ফল",
-  "color": "#3aa05a",
-  "order": 3
- },
- {
-  "id": "flowers-plants",
-  "nameEn": "FLOWERS & PLANTS",
-  "nameBn": "ফুল ও গাছ",
-  "color": "#2b86c5",
-  "order": 4
- },
- {
-  "id": "vegetables",
-  "nameEn": "VEGETABLES",
-  "nameBn": "সবজি",
-  "color": "#8e5bbf",
-  "order": 5
- },
- {
-  "id": "fish-sea",
-  "nameEn": "FISH & SEA",
-  "nameBn": "মাছ ও সমুদ্রের প্রাণী",
-  "color": "#d6478a",
-  "order": 6
- },
- {
-  "id": "vehicles",
-  "nameEn": "VEHICLES",
-  "nameBn": "যানবাহন",
-  "color": "#d94a4a",
-  "order": 7
- },
- {
-  "id": "human-body",
-  "nameEn": "HUMAN BODY",
-  "nameBn": "মানুষের শরীর",
-  "color": "#e8892b",
-  "order": 8
- },
- {
-  "id": "food",
-  "nameEn": "FOOD",
-  "nameBn": "খাবার",
-  "color": "#3aa05a",
-  "order": 9
- },
- {
-  "id": "drinks",
-  "nameEn": "DRINKS",
-  "nameBn": "পানীয়",
-  "color": "#2b86c5",
-  "order": 10
- },
- {
-  "id": "sports",
-  "nameEn": "SPORTS",
-  "nameBn": "খেলাধুলা",
-  "color": "#8e5bbf",
-  "order": 11
- },
- {
-  "id": "insects",
-  "nameEn": "INSECTS",
-  "nameBn": "পোকামাকড়",
-  "color": "#d6478a",
-  "order": 12
- }
+  {
+    "id": "animals",
+    "nameEn": "ANIMALS",
+    "nameBn": "জীবজন্তু",
+    "color": "#d94a4a",
+    "order": 1
+  },
+  {
+    "id": "birds",
+    "nameEn": "BIRDS",
+    "nameBn": "পাখি",
+    "color": "#e8892b",
+    "order": 2
+  },
+  {
+    "id": "fruits",
+    "nameEn": "FRUITS",
+    "nameBn": "ফল",
+    "color": "#3aa05a",
+    "order": 3
+  },
+  {
+    "id": "flowers-plants",
+    "nameEn": "FLOWERS & PLANTS",
+    "nameBn": "ফুল ও গাছ",
+    "color": "#2b86c5",
+    "order": 4
+  },
+  {
+    "id": "vegetables",
+    "nameEn": "VEGETABLES",
+    "nameBn": "সবজি",
+    "color": "#8e5bbf",
+    "order": 5
+  },
+  {
+    "id": "fish-sea",
+    "nameEn": "FISH & SEA",
+    "nameBn": "মাছ ও সমুদ্রের প্রাণী",
+    "color": "#d6478a",
+    "order": 6
+  },
+  {
+    "id": "vehicles",
+    "nameEn": "VEHICLES",
+    "nameBn": "যানবাহন",
+    "color": "#d94a4a",
+    "order": 7
+  },
+  {
+    "id": "human-body",
+    "nameEn": "HUMAN BODY",
+    "nameBn": "মানুষের শরীর",
+    "color": "#e8892b",
+    "order": 8
+  },
+  {
+    "id": "food",
+    "nameEn": "FOOD",
+    "nameBn": "খাবার",
+    "color": "#3aa05a",
+    "order": 9
+  },
+  {
+    "id": "drinks",
+    "nameEn": "DRINKS",
+    "nameBn": "পানীয়",
+    "color": "#2b86c5",
+    "order": 10
+  },
+  {
+    "id": "sports",
+    "nameEn": "SPORTS",
+    "nameBn": "খেলাধুলা",
+    "color": "#8e5bbf",
+    "order": 11
+  },
+  {
+    "id": "insects",
+    "nameEn": "INSECTS",
+    "nameBn": "পোকামাকড়",
+    "color": "#d6478a",
+    "order": 12
+  },
+  {
+    "id": "colors",
+    "nameEn": "COLOURS",
+    "nameBn": "রং",
+    "color": "#e8590c",
+    "order": 13
+  },
+  {
+    "id": "shapes",
+    "nameEn": "SHAPES",
+    "nameBn": "আকার",
+    "color": "#7048e8",
+    "order": 14
+  },
+  {
+    "id": "clothes",
+    "nameEn": "CLOTHES",
+    "nameBn": "পোশাক",
+    "color": "#d6336c",
+    "order": 15
+  },
+  {
+    "id": "home",
+    "nameEn": "AT HOME",
+    "nameBn": "ঘরের জিনিস",
+    "color": "#5c7cfa",
+    "order": 16
+  },
+  {
+    "id": "school",
+    "nameEn": "SCHOOL",
+    "nameBn": "স্কুল",
+    "color": "#1c7ed6",
+    "order": 17
+  },
+  {
+    "id": "jobs",
+    "nameEn": "JOBS",
+    "nameBn": "পেশা",
+    "color": "#0ca678",
+    "order": 18
+  },
+  {
+    "id": "nature",
+    "nameEn": "SKY & NATURE",
+    "nameBn": "আকাশ ও প্রকৃতি",
+    "color": "#2f9bbf",
+    "order": 19
+  },
+  {
+    "id": "music",
+    "nameEn": "MUSIC",
+    "nameBn": "গান-বাজনা",
+    "color": "#ae3ec9",
+    "order": 20
+  },
+  {
+    "id": "places",
+    "nameEn": "PLACES",
+    "nameBn": "জায়গা",
+    "color": "#6b7280",
+    "order": 21
+  },
+  {
+    "id": "toys",
+    "nameEn": "TOYS & FUN",
+    "nameBn": "খেলনা ও মজা",
+    "color": "#e67700",
+    "order": 22
+  }
 ]

@@ -50,13 +50,13 @@ export function useHtmlLang() {
 }
 
 /** Page frame: safe-area header with back button, title and optional right-hand slot. */
-export function Screen({ title, titleBn, color = "#2f9e8f", back, right, children }: {
-  title: string; titleBn?: string; color?: string; back?: string | number; right?: ReactNode; children: ReactNode;
+export function Screen({ title, titleBn, color = "#2f9e8f", back, right, children, wide }: {
+  title: string; titleBn?: string; color?: string; back?: string | number; right?: ReactNode; children: ReactNode; wide?: boolean;
 }) {
   const t = useT();
   const nav = useNavigate();
   return (
-    <div className="mx-auto flex min-h-full w-full max-w-5xl flex-col">
+    <div className={`mx-auto flex min-h-full w-full flex-col ${wide ? "max-w-[1800px]" : "max-w-5xl"}`}>
       <header className="safe-pt safe-px sticky top-0 z-30 flex items-center gap-3 pb-3 pt-2 text-white" style={{ backgroundColor: darken(color, 0.28) }}>
         {back !== undefined && (
           <button type="button" aria-label={t("common.back")} onClick={() => (typeof back === "number" ? nav(back) : nav(back))}

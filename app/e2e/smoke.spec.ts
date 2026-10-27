@@ -14,10 +14,10 @@ test("home lists modules; coming-soon modules are present", async ({ page }) => 
   await expect(page.getByRole("heading", { name: /Coming soon|শীঘ্রই আসছে/i })).toBeVisible();
 });
 
-test("picture words: 12 sections, grid and flashcard render with images", async ({ page }) => {
+test("picture words: 22 sections, grid and flashcard render with images", async ({ page }) => {
   await page.goto("/m/picture-words");
   await expect(page.locator("a[href^='/m/picture-words/']").filter({ hasText: /ANIMALS|Animals/i }).first()).toBeVisible();
-  await expect(page.locator("a[href^='/m/picture-words/']:not([href$='/games'])")).toHaveCount(12);
+  await expect(page.locator("a[href^='/m/picture-words/']:not([href$='/games'])")).toHaveCount(22);
   await page.goto("/m/picture-words/animals");
   await expect(page.getByRole("button", { name: /Tiger/ })).toBeVisible();
   await page.getByRole("button", { name: /Tiger/ }).click();
@@ -53,7 +53,7 @@ test("OFFLINE: download a section, go offline, reload and still browse", async (
   await expect.poll(() => page.evaluate(() => !!navigator.serviceWorker.controller)).toBe(true);
   // visit content once so it is cached, then download the "drinks" section from the parent corner
   await page.goto("/m/picture-words");
-  await expect(page.locator("a[href^='/m/picture-words/']:not([href$='/games'])")).toHaveCount(12);
+  await expect(page.locator("a[href^='/m/picture-words/']:not([href$='/games'])")).toHaveCount(22);
   await page.goto("/parent");
   await passGate(page);
   await page.getByTestId("dl-expand").click();

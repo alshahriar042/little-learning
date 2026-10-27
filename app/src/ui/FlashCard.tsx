@@ -9,13 +9,14 @@ export function FlashCard({ picture, word, pron, meaning, color, onSpeak, speakL
   return (
     <div className="flex flex-col items-center gap-4 text-center">
       <button type="button" aria-label={speakLabel} onClick={() => { setPop((p) => p + 1); onSpeak(); }}
-        key={pop} className={`${pop ? "anim-bounce" : ""} w-full max-w-md overflow-hidden rounded-[2rem] bg-white p-2 shadow-soft`}>
+        key={pop} className={`${pop ? "anim-bounce" : ""} w-full overflow-hidden rounded-[2rem] bg-white p-2 shadow-soft md:p-3`}
+        style={{ maxWidth: "max(28rem, min(100%, calc((100dvh - 24rem) * 1.7)))" }}>
         {picture}
       </button>
       <div>
-        <p className="text-5xl font-black uppercase tracking-wide" style={{ color: darken(color, 0.2) }}>{word}</p>
-        {pron && <p lang="bn" className="mt-1 text-3xl font-bold text-soft">({pron})</p>}
-        {meaning && <p lang="bn" className="mt-1 text-5xl font-extrabold leading-tight">{meaning}</p>}
+        <p className="text-5xl font-black uppercase tracking-wide md:text-6xl xl:text-7xl" style={{ color: darken(color, 0.2) }}>{word}</p>
+        {pron && <p lang="bn" className="mt-1 text-3xl font-bold text-soft md:text-4xl xl:text-5xl">({pron})</p>}
+        {meaning && <p lang="bn" className="mt-1 text-5xl font-extrabold leading-tight md:text-6xl xl:text-7xl">{meaning}</p>}
       </div>
     </div>
   );

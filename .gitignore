@@ -9,3 +9,4 @@ playwright-report
 .lighthouse
 *.log
 .wrangler
+.cache/

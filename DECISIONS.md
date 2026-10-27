@@ -58,3 +58,16 @@ Judgement calls made autonomously (newest context at the bottom of each topic).
 * Cloudflare R2 bucket, custom domain, CORS and Pages project (no credentials available) → README "Manual steps for the owner".
 * Real recorded Bangla/English audio (optional, drop-in).
 * Real-device testing on iOS Safari (only Chromium was available).
+
+## Extra items (added after the first release)
+23. `scripts/add-items.ts` adds 227 words (10 new sections: colours, shapes, clothes, at home, school, jobs, sky & nature, music,
+    places, toys; plus extras in 11 existing sections) using Google **Noto Emoji** SVGs (Apache-2.0, fetched from jsDelivr, cached in
+    `.cache/`) rendered onto a pastel 4:3 card (`incoming/images/*.webp`). They carry a credit. Total: 22 sections, 590 words.
+    The script is idempotent. **Do not re-run `extract-pdf.ts` afterwards without re-running `add-items.ts`**, because extract-pdf
+    rewrites `incoming/items.json` from the PDF only. Bangla meanings/pronunciations are my own and should be proof-read.
+24. Words added to the 12 ORIGINAL sections now use **real photographs**, not emoji art: `scripts/add-photos.ts` replaced them with
+    Wikimedia Commons images (CC BY / CC BY-SA / CC0 / public domain only; author, licence and source page are stored as the credit
+    and shown on the Credits page). Picks were reviewed by eye on a contact sheet; some are the best available rather than ideal
+    (e.g. *Bowling* is a rendered image, *Satellite* is a Soyuz craft, *Flying saucer* is a historic B/W photo). "Muscle" and
+    "Pointing up" were dropped because no suitable photo was found. The 10 NEW sections still use Noto Emoji cards (decision 23).
+    Total now: 22 sections, 588 words.
