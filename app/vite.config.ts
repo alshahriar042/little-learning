@@ -20,7 +20,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   const assetBase = env.VITE_ASSET_BASE_URL ?? "";
   return {
-    resolve: { alias: { "@": path.resolve(__dirname, "src") } },
+    resolve: { alias: { "@": path.resolve(import.meta.dirname, "src") } },
     build: { target: "es2022", sourcemap: false },
     plugins: [
       react(),

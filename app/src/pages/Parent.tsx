@@ -93,7 +93,7 @@ function DownloadRow({ moduleId, packId, title, bytes, indent }: { moduleId: str
         <div className="min-w-0"><p className="truncate font-extrabold" lang={indent ? "bn" : undefined}>{title}</p><p className="text-sm text-soft">{formatBytes(bytes)}</p></div>
         {running
           ? <button type="button" className="min-h-12 rounded-xl bg-white px-4 font-bold" onClick={() => cancelDownload(moduleId, packId)}>{t("parent.cancel")}</button>
-          : <button type="button" className="min-h-12 rounded-xl bg-teal-bg px-4 font-extrabold text-white" onClick={() => void downloadPack(moduleId, packId)}>
+          : <button type="button" data-testid={`dl-${packId}`} data-state={done || job?.status === "done" ? "done" : job?.status === "error" ? "error" : "idle"} className="min-h-12 rounded-xl bg-teal-bg px-4 font-extrabold text-white" onClick={() => void downloadPack(moduleId, packId)}>
               {done || job?.status === "done" ? t("parent.downloaded") : job?.status === "error" ? t("parent.redownload") : t("parent.download")}</button>}
       </div>
       {running && <div className="mt-2"><ProgressBar job={job} /><p className="text-sm font-bold">{job.done} / {job.total}</p></div>}
@@ -111,7 +111,7 @@ function ModuleDownloads({ moduleId, titleEn, titleBn }: { moduleId: string; tit
   return (
     <div className="mb-4">
       <DownloadRow moduleId={moduleId} packId="*" title={`${titleEn} · ${titleBn}`} bytes={m.packs.reduce((a, p) => a + p.bytes, 0)} />
-      <button type="button" aria-expanded={open} onClick={() => setOpen(!open)} className="mb-2 min-h-12 px-2 font-bold text-teal underline">{t("parent.sectionsDl")} {open ? "▲" : "▼"}</button>
+      <button type="button" data-testid="dl-expand" aria-expanded={open} onClick={() => setOpen(!open)} className="mb-2 min-h-12 px-2 font-bold text-teal underline">{t("parent.sectionsDl")} {open ? "▲" : "▼"}</button>
       {open && m.packs.map((p) => <DownloadRow key={p.id} indent moduleId={moduleId} packId={p.id} title={p.titleBn} bytes={p.bytes} />)}
     </div>
   );
